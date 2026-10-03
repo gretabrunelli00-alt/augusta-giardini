@@ -115,7 +115,7 @@ export default function Home({ cards, editorials, plants, site, initialSlug }: P
         else if ((e.key === "Enter" || e.key === " ") && (t === document.body || t === stageRef.current)) { e.preventDefault(); toggleFlip(); }
       } else if (m === "intro" && (e.key === "ArrowDown" || e.key === "PageDown") && !(t && t.closest(".intro-scroll") && t !== document.body && /^(A|BUTTON)$/.test(t.tagName))) {
         const el = introRef.current;
-        if (el && el.scrollTop + el.clientHeight < el.scrollHeight - 2) return; // scorre il contenuto
+        if (el && el.scrollHeight - el.clientHeight > 48 && el.scrollTop + el.clientHeight < el.scrollHeight - 2) return; // scorre il contenuto
         e.preventDefault(); sceneTo(1);
       }
     };

@@ -292,8 +292,9 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
       // l'apertura scorre da sola se è più alta dello schermo
       const intro = introRef.current;
       if (intro && (m === "intro") && tg.closest(".intro-scroll")) {
-        const canDown = intro.scrollTop + intro.clientHeight < intro.scrollHeight - 2;
-        const canUp = intro.scrollTop > 0;
+        const overflow = intro.scrollHeight - intro.clientHeight;
+        const canDown = overflow > 48 && intro.scrollTop + intro.clientHeight < intro.scrollHeight - 2;
+        const canUp = overflow > 48 && intro.scrollTop > 0;
         if ((dy > 0 && canDown) || (dy < 0 && canUp)) { lastNative = now; return; }
         if (dy > 0 && now - lastNative < 260) { e.preventDefault(); return; }
       }
@@ -313,7 +314,7 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
       const intro = introRef.current;
       const y = e.touches[0].clientY;
       if (!driving) {
-        const atBottom = !intro || intro.scrollTop + intro.clientHeight >= intro.scrollHeight - 2;
+        const atBottom = !intro || intro.scrollHeight - intro.clientHeight <= 48 || intro.scrollTop + intro.clientHeight >= intro.scrollHeight - 2;
         if (y - ty0 < -8 && atBottom) { driving = true; ty0 = y; t0 = tTarget.current; }
         else if (modeRef.current === "intro") return;
         else { driving = true; ty0 = y; t0 = tTarget.current; }
