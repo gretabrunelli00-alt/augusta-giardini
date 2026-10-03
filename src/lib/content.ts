@@ -44,37 +44,35 @@ export function getCollection(): Collection {
   const plantMap: Record<string, PlantEntry> = {};
   for (const p of plantsFile.plants) plantMap[p.id] = { ...p, uses: [] };
 
-  const cards: Card[] = site.order.map((slug) => {
+  const cards: ProjectCard[] = site.order.map((slug) => {
     const pr = projects.get(slug);
-    if (pr) {
-      const images = resolveImages(pr.slug, pr.images);
-      const cover = images.find((i) => i.id === pr.cover);
-      if (!cover) throw new Error(`${slug}: cover "${pr.cover}" non trovata`);
-      const plants: PlantUseView[] = pr.plants.map((u) => {
-        const entry = plantMap[u.plant];
-        if (!entry) throw new Error(`${slug}: pianta sconosciuta "${u.plant}"`);
-        entry.uses.push({ slug: pr.slug, title: pr.title, cultivar: u.cultivar, variant: u.variant, original: u.original, source: u.source });
-        return { plantId: u.plant, latin: entry.latin, commonName: entry.commonName, original: u.original, cultivar: u.cultivar, variant: u.variant, source: u.source };
-      });
-      return {
-        kind: "project",
-        slug: pr.slug, title: pr.title, titleOriginal: pr.titleOriginal, place: pr.place, placeNote: pr.placeNote,
-        type: pr.type, year: pr.year, tagline: pr.tagline, signature: pr.signature, pullQuote: pr.pullQuote,
-        seoDescription: pr.seoDescription, sections: pr.sections, plants, images, cover, video: pr.video, legacyPath: pr.legacyPath,
-      } satisfies ProjectCard;
-    }
-    const ed = editorials.get(slug);
-    if (ed) {
-      return {
-        kind: "editorial", slug: ed.slug, title: ed.title, seoDescription: ed.seoDescription, front: ed.front,
-        images: resolveImages("_editorial", ed.images), sections: ed.sections, phases: ed.phases,
-      } satisfies EditorialCard;
-    }
-    throw new Error(`site.json: "${slug}" non corrisponde a nessun file in content/`);
+    if (!pr) throw new Error(`site.json: "${slug}" non e' un progetto in content/projects/`);
+    const images = resolveImages(pr.slug, pr.images);
+    const cover = images.find((i) => i.id === pr.cover);
+    if (!cover) throw new Error(`${slug}: cover "${pr.cover}" non trovata`);
+    const plants: PlantUseView[] = pr.plants.map((u) => {
+      const entry = plantMap[u.plant];
+      if (!entry) throw new Error(`${slug}: pianta sconosciuta "${u.plant}"`);
+      entry.uses.push({ slug: pr.slug, title: pr.title, cultivar: u.cultivar, variant: u.variant, original: u.original, source: u.source });
+      return { plantId: u.plant, latin: entry.latin, commonName: entry.commonName, original: u.original, cultivar: u.cultivar, variant: u.variant, source: u.source };
+    });
+    return {
+      kind: "project",
+      slug: pr.slug, title: pr.title, titleOriginal: pr.titleOriginal, place: pr.place, placeNote: pr.placeNote,
+      type: pr.type, year: pr.year, tagline: pr.tagline, signature: pr.signature, pullQuote: pr.pullQuote,
+      seoDescription: pr.seoDescription, sections: pr.sections, plants, images, cover, video: pr.video, legacyPath: pr.legacyPath,
+    } satisfies ProjectCard;
   });
+  const editorialCards: Record<string, EditorialCard> = {};
+  for (const ed of editorials.values()) {
+    editorialCards[ed.slug] = {
+      kind: "editorial", slug: ed.slug, title: ed.title, seoDescription: ed.seoDescription, front: ed.front,
+      images: resolveImages("_editorial", ed.images), sections: ed.sections, phases: ed.phases, summary: ed.summary,
+    };
+  }
   for (const k of projects.keys()) if (!site.order.includes(k)) console.warn(`[content] progetto "${k}" non è in site.json → order (non verrà mostrato)`);
 
-  cache = { site, cards, plants: plantMap };
+  cache = { site, cards, editorials: editorialCards, plants: plantMap };
   return cache;
 }
 

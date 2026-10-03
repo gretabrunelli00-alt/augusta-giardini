@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, type ReactNode } from "react";
 import { Pic } from "./Pic";
 import { Latin } from "./Latin";
 import { plantSvg } from "@/lib/plantArt";
-import { ContactBlock } from "./EditorialFaces";
+import { ContactBlock } from "./ContactBlock";
 import type { PlantEntry, ProjectCard } from "@/lib/types";
 import type { Site } from "@/lib/schema";
 

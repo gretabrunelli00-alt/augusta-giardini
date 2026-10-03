@@ -27,5 +27,14 @@
       "quote": "Seguo ogni step della realizzazione.",
       "text": "La direzione lavori: assistenza in tutte le fasi di realizzazione. Esecuzione di tutti i movimenti terra per raggiungere le quote di livello finali del giardino, la costruzione di tutte le opere previste, predisposizione e posa degli impianti e degli elementi vegetali. Fase in cui la supervisione garantisce la conformità del progetto e il rispetto dei budget di costo previsti dal computo."
     }
-  ]
+  ],
+  "summary": {
+    "paragraphs": [],
+    "kpis": [
+      {
+        "value": "4",
+        "label": "fasi, dal sopralluogo alla direzione lavori"
+      }
+    ]
+  }
 }

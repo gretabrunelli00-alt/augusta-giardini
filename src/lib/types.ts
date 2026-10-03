@@ -55,6 +55,7 @@ export type EditorialCard = {
   images: Img[];
   sections?: Editorial["sections"];
   phases?: Editorial["phases"];
+  summary?: Editorial["summary"];
 };
 
 export type Card = ProjectCard | EditorialCard;
@@ -65,7 +66,10 @@ export type PlantEntry = Plant & {
 
 export type Collection = {
   site: Site;
-  cards: Card[];
+  /** i progetti, nell'ordine del carosello */
+  cards: ProjectCard[];
+  /** pagine di approfondimento: filosofia, chi-sono, come-lavoro */
+  editorials: Record<string, EditorialCard>;
   plants: Record<string, PlantEntry>;
 };
 

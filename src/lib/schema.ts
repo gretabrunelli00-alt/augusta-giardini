@@ -70,6 +70,15 @@ export const Editorial = z.object({
   title: z.string(),
   seoDescription: z.string().max(200),
   front: z.object({ kicker: z.string(), phrase: z.string().optional(), caption: z.string().optional() }),
+  /** sunto per l'apertura (parole di Augusta, estratte) con dati chiave; "{projects}" = n. progetti */
+  summary: z
+    .object({
+      quote: z.string().optional(),
+      paragraphs: z.array(z.string()).default([]),
+      keywords: z.array(z.string()).optional(),
+      kpis: z.array(z.object({ value: z.string(), label: z.string() })).default([]),
+    })
+    .optional(),
   images: z.array(ImageRef).default([]),
   sections: z
     .array(

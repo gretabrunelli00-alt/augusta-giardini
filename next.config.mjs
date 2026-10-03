@@ -23,7 +23,7 @@ const nextConfig = {
   poweredByHeader: false,
   skipTrailingSlashRedirect: true,
   async redirects() {
-    return [...redirects, { source: "/progetti", destination: "/", statusCode: 301 }];
+    return redirects;
   },
   async headers() {
     return [

@@ -1,7 +1,7 @@
-import ArchivePage from "@/components/ArchivePage";
+import StudioPage from "@/components/StudioPage";
 import { cardMetadata } from "@/lib/meta";
 
 export const generateMetadata = () => cardMetadata("chi-sono");
 export default function Page() {
-  return <ArchivePage slug="chi-sono" />;
+  return <StudioPage slug="chi-sono" />;
 }
