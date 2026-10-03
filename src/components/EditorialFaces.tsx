@@ -6,7 +6,7 @@ import { pad2 } from "@/lib/types";
 import type { EditorialCard } from "@/lib/types";
 import type { Site } from "@/lib/schema";
 
-type Common = { card: EditorialCard; number: number; total: number; onFlip: () => void };
+type Common = { card: EditorialCard; number?: number; total?: number; onFlip: () => void };
 
 const isWork = (c: EditorialCard) => !!c.phases;
 
@@ -18,8 +18,7 @@ export function EditorialFront({ card, number, onFlip }: Common) {
       {isWork(card) ? (
         <div className="e-front e-work">
           <div className="f-top">
-            <span className="f-num">N° {pad2(number)}</span>
-            <span className="f-year">{card.front.kicker}</span>
+            <span className="f-num">{card.front.kicker}</span>
           </div>
           <ol className="e-phases">
             {card.phases!.map((p, i) => (
@@ -34,8 +33,7 @@ export function EditorialFront({ card, number, onFlip }: Common) {
       ) : (
         <div className="e-front e-self">
           <div className="f-top">
-            <span className="f-num">N° {pad2(number)}</span>
-            <span className="f-year">{card.front.kicker}</span>
+            <span className="f-num">{card.front.kicker}</span>
           </div>
           <h2 className="e-phrase">{card.front.phrase}</h2>
           {portraitless && (

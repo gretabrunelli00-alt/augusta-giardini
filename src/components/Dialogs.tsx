@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useRef, type ReactNode } from "react";
 import { Pic } from "./Pic";
 import { Latin } from "./Latin";
+import { plantSvg } from "@/lib/plantArt";
 import { ContactBlock } from "./EditorialFaces";
 import type { PlantEntry, ProjectCard } from "@/lib/types";
 import type { Site } from "@/lib/schema";
@@ -58,11 +59,33 @@ export function PlantDialog({
       {p && (
         <div className="dlg-body">
           <CloseBtn onClose={onClose} />
+          {p.art && (
+            <figure className="plant-art" aria-hidden="true">
+              <div dangerouslySetInnerHTML={{ __html: plantSvg(p.art, p.id) }} />
+            </figure>
+          )}
           <p className="dlg-kicker">Scheda botanica{p.genus && p.genus !== "—" ? ` · genere ${p.genus}` : ""}</p>
           <h2 id="plant-title" className={p.latin ? "plant-h" : "plant-h is-common"}>
             {p.latin ? <Latin name={p.latin} /> : p.commonName}
           </h2>
           {p.latin && p.commonName && <p className="plant-h-common">{p.commonName}</p>}
+
+          {(p.family || p.plantType || p.foliage || p.bloom || p.exposure) && (
+            <>
+              <h3 className="dlg-sub">Caratteristiche</h3>
+              <dl className="plant-facts">
+                {([["Famiglia", p.family], ["Tipo", p.plantType], ["Foglia", p.foliage], ["Fioritura", p.bloom], ["Esposizione", p.exposure]] as const)
+                  .filter(([, v]) => v && v !== "—")
+                  .map(([k, v]) => (
+                    <div key={k}>
+                      <dt>{k}</dt>
+                      <dd>{v}</dd>
+                    </div>
+                  ))}
+              </dl>
+              <p className="plant-disclaimer">Scheda indicativa e disegno schematico, da verificare con Augusta.</p>
+            </>
+          )}
 
           <h3 className="dlg-sub">
             Dove l’ho usata <span>{p.uses.length}</span>

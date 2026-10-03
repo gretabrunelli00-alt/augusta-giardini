@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { preload } from "react-dom";
-import Archive from "./Archive";
+import Site from "./Site";
 import { getCollection, siteUrl } from "@/lib/content";
 import { cardPath } from "@/lib/types";
 import type { Card } from "@/lib/types";
 
 /** Pagina server: dati + preload della prima foto + fallback senza JavaScript. */
-export default function ArchivePage({ slug }: { slug: string }) {
+export default function ArchivePage({ slug, home }: { slug: string; home?: boolean }) {
   const { cards, plants, site } = getCollection();
   const current = cards.find((c) => c.slug === slug)!;
-  const img = current.kind === "project" ? current.cover : current.images[0];
+  const img = current.kind === "project" ? current.cover : null;
   if (img) {
     const w = img.widths[Math.min(1, img.widths.length - 1)];
     preload(`${img.base}-${w}.avif`, {
@@ -49,9 +49,9 @@ export default function ArchivePage({ slug }: { slug: string }) {
   return (
     <>
       <h1 className="sr-only">
-        {`${current.title} — ${site.name}`}
+        {home ? `${site.name} — progettazione di giardini e terrazze sul Lago d’Iseo e a Bergamo` : `${current.title} — ${site.name}`}
       </h1>
-      <Archive cards={cards} plants={plants} site={site} initialSlug={slug} />
+      <Site cards={cards} plants={plants} site={site} initialSlug={slug} />
       {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />}
       <Fallback current={current} cards={cards} />
     </>

@@ -5,7 +5,18 @@
       "genus": "Malus",
       "latin": "Malus floribunda",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Rosaceae",
+      "plantType": "albero da fiore",
+      "foliage": "caduca",
+      "bloom": "aprile–maggio · boccioli rosa, fiori bianchi",
+      "exposure": "sole",
+      "art": {
+        "kind": "tree",
+        "leaf": "green",
+        "flower": "pink",
+        "shape": "small"
+      }
     },
     {
       "id": "cornus-florida",
@@ -13,21 +24,51 @@
       "latin": "Cornus florida",
       "status": "da-confermare",
       "reviewNote": "Il sito scrive «Cornus florida rubra»: interpretato come cultivar 'Rubra'.",
-      "note": ""
+      "note": "",
+      "family": "Cornaceae",
+      "plantType": "piccolo albero",
+      "foliage": "caduca",
+      "bloom": "aprile–maggio · brattee bianche o rosa",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "tree",
+        "leaf": "green",
+        "flower": "white",
+        "shape": "spread"
+      }
     },
     {
       "id": "cycas-revoluta",
       "genus": "Cycas",
       "latin": "Cycas revoluta",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Cycadaceae",
+      "plantType": "cicadacea (aspetto di palma)",
+      "foliage": "sempreverde",
+      "bloom": "senza fioritura ornamentale",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "cycas",
+        "leaf": "dark"
+      }
     },
     {
       "id": "laurus-nobilis",
       "genus": "Laurus",
       "latin": "Laurus nobilis",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Lauraceae",
+      "plantType": "albero o arbusto",
+      "foliage": "sempreverde",
+      "bloom": "marzo–aprile · piccoli fiori giallo-verdi",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "dark",
+        "shape": "big"
+      }
     },
     {
       "id": "phormium-tenax",
@@ -35,7 +76,17 @@
       "latin": "Phormium tenax",
       "status": "da-confermare",
       "reviewNote": "Voci unite per specie: «Phormium tenax variegato» e «Phormium atropurpurea» (inteso come P. tenax 'Atropurpureum', come da indicazione). Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Asphodelaceae",
+      "plantType": "perenne a ventaglio",
+      "foliage": "sempreverde",
+      "bloom": "estate · alti steli con fiori rossi",
+      "exposure": "sole",
+      "art": {
+        "kind": "fan",
+        "leaf": "green",
+        "flower": "red"
+      }
     },
     {
       "id": "phormium-sp",
@@ -43,7 +94,17 @@
       "latin": "Phormium sp.",
       "status": "da-confermare",
       "reviewNote": "Il sito scrive solo «Phormium variegato» (o «phormium» nel testo): specie non indicata, quindi voce separata da P. tenax. Da confermare se è P. tenax.",
-      "note": ""
+      "note": "",
+      "family": "Asphodelaceae",
+      "plantType": "perenne a ventaglio",
+      "foliage": "sempreverde",
+      "bloom": "estate · alti steli con fiori rossi",
+      "exposure": "sole",
+      "art": {
+        "kind": "fan",
+        "leaf": "bronze",
+        "flower": "red"
+      }
     },
     {
       "id": "asparagus-sprengeri",
@@ -51,14 +112,35 @@
       "latin": "Asparagus densiflorus",
       "status": "da-confermare",
       "reviewNote": "«Asparagus sprengerii/sprengeri» è un sinonimo di A. densiflorus 'Sprengeri'. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Asparagaceae",
+      "plantType": "perenne ricadente",
+      "foliage": "sempreverde",
+      "bloom": "fiori bianchi minuti, bacche rosse",
+      "exposure": "ombra / mezz’ombra",
+      "art": {
+        "kind": "vine",
+        "leaf": "green",
+        "shape": "needle"
+      }
     },
     {
       "id": "hydrangea-paniculata",
       "genus": "Hydrangea",
       "latin": "Hydrangea paniculata",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Hydrangeaceae",
+      "plantType": "arbusto",
+      "foliage": "caduca",
+      "bloom": "luglio–ottobre · pannocchie bianche che virano al rosa",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "green",
+        "flower": "white",
+        "shape": "globe"
+      }
     },
     {
       "id": "hydrangea-arborescens",
@@ -66,14 +148,36 @@
       "latin": "Hydrangea arborescens",
       "status": "da-confermare",
       "reviewNote": "Il sito scrive «Hydrangea hannabelle»: interpretato come 'Annabelle'. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Hydrangeaceae",
+      "plantType": "arbusto",
+      "foliage": "caduca",
+      "bloom": "giugno–settembre · grandi corimbi bianchi",
+      "exposure": "mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "green",
+        "flower": "cream",
+        "shape": "globe"
+      }
     },
     {
       "id": "hydrangea-macrophylla",
       "genus": "Hydrangea",
       "latin": "Hydrangea macrophylla",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Hydrangeaceae",
+      "plantType": "arbusto",
+      "foliage": "caduca",
+      "bloom": "giugno–settembre · infiorescenze globose",
+      "exposure": "mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "green",
+        "flower": "white",
+        "shape": "globe"
+      }
     },
     {
       "id": "pachysandra-terminalis",
@@ -81,7 +185,17 @@
       "latin": "Pachysandra terminalis",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Pachisandra»: refuso.",
-      "note": ""
+      "note": "",
+      "family": "Buxaceae",
+      "plantType": "tappezzante",
+      "foliage": "sempreverde",
+      "bloom": "primavera · spighe bianche",
+      "exposure": "ombra",
+      "art": {
+        "kind": "ground",
+        "leaf": "dark",
+        "flower": "white"
+      }
     },
     {
       "id": "trachelospermum-jasminoides",
@@ -89,7 +203,17 @@
       "latin": "Trachelospermum jasminoides",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Rhycospermum jasminoides»: nome non valido (probabile sinonimo antico Rhynchospermum). Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Apocynaceae",
+      "plantType": "rampicante",
+      "foliage": "sempreverde",
+      "bloom": "maggio–luglio · fiori bianchi profumati",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "vine",
+        "leaf": "dark",
+        "flower": "white"
+      }
     },
     {
       "id": "agapanthus-africanus",
@@ -97,7 +221,17 @@
       "latin": "Agapanthus africanus",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Agapahanthus/Agapanthus africanus». In vivaio il nome africanus è spesso usato per A. praecox: da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Amaryllidaceae",
+      "plantType": "perenne bulbosa",
+      "foliage": "sempreverde o semisempreverde",
+      "bloom": "giugno–settembre · ombrelle azzurre o bianche",
+      "exposure": "sole",
+      "art": {
+        "kind": "umbel",
+        "leaf": "green",
+        "flower": "azure"
+      }
     },
     {
       "id": "opuntia-sp",
@@ -105,14 +239,33 @@
       "latin": "Opuntia sp.",
       "status": "da-confermare",
       "reviewNote": "Nome ambiguo: la specie non è indicata.",
-      "note": ""
+      "note": "",
+      "family": "Cactaceae",
+      "plantType": "succulenta",
+      "foliage": "sempreverde",
+      "bloom": "estate · fiori gialli o arancio",
+      "exposure": "sole",
+      "art": {
+        "kind": "pad",
+        "leaf": "green",
+        "flower": "yellow"
+      }
     },
     {
       "id": "agave-americana",
       "genus": "Agave",
       "latin": "Agave americana",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Asparagaceae",
+      "plantType": "succulenta a rosetta",
+      "foliage": "sempreverde",
+      "bloom": "fioritura rara, dopo molti anni",
+      "exposure": "sole",
+      "art": {
+        "kind": "rosette",
+        "leaf": "blue"
+      }
     },
     {
       "id": "agave-sp",
@@ -120,7 +273,16 @@
       "latin": "Agave sp.",
       "status": "da-confermare",
       "reviewNote": "Citata nel testo di «Corten e graminacee» come «agavi»: specie non indicata.",
-      "note": ""
+      "note": "",
+      "family": "Asparagaceae",
+      "plantType": "succulenta a rosetta",
+      "foliage": "sempreverde",
+      "bloom": "fioritura rara, dopo molti anni",
+      "exposure": "sole",
+      "art": {
+        "kind": "rosette",
+        "leaf": "sage"
+      }
     },
     {
       "id": "pittosporum-tobira",
@@ -128,7 +290,18 @@
       "latin": "Pittosporum tobira",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Pittosporo tobira nano»: inteso come cultivar 'Nanum'. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Pittosporaceae",
+      "plantType": "arbusto",
+      "foliage": "sempreverde",
+      "bloom": "aprile–maggio · fiori crema profumati",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "dark",
+        "flower": "cream",
+        "shape": "big"
+      }
     },
     {
       "id": "olea-europaea",
@@ -136,7 +309,17 @@
       "latin": "Olea europaea",
       "commonName": "Ulivo",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Oleaceae",
+      "plantType": "albero",
+      "foliage": "sempreverde",
+      "bloom": "maggio–giugno · piccoli fiori bianchi",
+      "exposure": "sole",
+      "art": {
+        "kind": "tree",
+        "leaf": "silver",
+        "shape": "narrow"
+      }
     },
     {
       "id": "salvia-rosmarinus",
@@ -145,7 +328,17 @@
       "commonName": "Rosmarino prostrato",
       "status": "da-confermare",
       "reviewNote": "Sinonimo: Rosmarinus officinalis. «Prostrato» interpretato come 'Prostratus'. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Lamiaceae",
+      "plantType": "arbusto aromatico (portamento prostrato)",
+      "foliage": "sempreverde",
+      "bloom": "quasi tutto l’anno · fiori azzurro-lilla",
+      "exposure": "sole",
+      "art": {
+        "kind": "spike",
+        "leaf": "dark",
+        "flower": "azure"
+      }
     },
     {
       "id": "gaura-lindheimeri",
@@ -153,7 +346,18 @@
       "latin": "Gaura lindheimeri",
       "status": "da-confermare",
       "reviewNote": "Oggi il nome accettato è Oenothera lindheimeri. Sul sito «lindeimerii/lindheimeri»; cultivar 'Butterfly' / 'Butterflies' da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Onagraceae",
+      "plantType": "perenne",
+      "foliage": "caduca o semisempreverde",
+      "bloom": "maggio–ottobre · fiori bianco-rosati",
+      "exposure": "sole",
+      "art": {
+        "kind": "daisy",
+        "leaf": "green",
+        "flower": "white",
+        "shape": "anemone"
+      }
     },
     {
       "id": "anemone-hybrida",
@@ -161,7 +365,18 @@
       "latin": "Anemone × hybrida",
       "status": "da-confermare",
       "reviewNote": "«Anemone honorine joberth» interpretato come 'Honorine Jobert'. Voce unita con «Anemone hybrida» (Fonteno).",
-      "note": ""
+      "note": "",
+      "family": "Ranunculaceae",
+      "plantType": "perenne",
+      "foliage": "caduca",
+      "bloom": "agosto–ottobre · fiori rosa o bianchi",
+      "exposure": "mezz’ombra",
+      "art": {
+        "kind": "daisy",
+        "leaf": "green",
+        "flower": "pink",
+        "shape": "anemone"
+      }
     },
     {
       "id": "anemone-sp",
@@ -169,14 +384,35 @@
       "latin": "Anemone sp.",
       "status": "da-confermare",
       "reviewNote": "Citata nel testo di «Corten e graminacee» come «anemoni»: specie non indicata.",
-      "note": ""
+      "note": "",
+      "family": "Ranunculaceae",
+      "plantType": "perenne",
+      "foliage": "caduca",
+      "bloom": "fioritura variabile secondo la specie",
+      "exposure": "mezz’ombra",
+      "art": {
+        "kind": "daisy",
+        "leaf": "green",
+        "flower": "white",
+        "shape": "anemone"
+      }
     },
     {
       "id": "yucca-rostrata",
       "genus": "Yucca",
       "latin": "Yucca rostrata",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Asparagaceae",
+      "plantType": "arbusto succulento",
+      "foliage": "sempreverde",
+      "bloom": "estate · pannocchie di fiori bianchi",
+      "exposure": "sole",
+      "art": {
+        "kind": "yucca",
+        "leaf": "blue",
+        "flower": "cream"
+      }
     },
     {
       "id": "plumbago-auriculata",
@@ -184,7 +420,17 @@
       "latin": "Plumbago auriculata",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Plumbago auricolata».",
-      "note": ""
+      "note": "",
+      "family": "Plumbaginaceae",
+      "plantType": "arbusto sarmentoso",
+      "foliage": "sempreverde o semisempreverde",
+      "bloom": "maggio–ottobre · fiori azzurro chiaro",
+      "exposure": "sole",
+      "art": {
+        "kind": "shrub",
+        "leaf": "green",
+        "flower": "azure"
+      }
     },
     {
       "id": "nerium-oleander",
@@ -192,7 +438,18 @@
       "latin": "Nerium oleander",
       "commonName": "Oleandro",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Apocynaceae",
+      "plantType": "arbusto",
+      "foliage": "sempreverde",
+      "bloom": "giugno–settembre · fiori bianchi, rosa o rossi",
+      "exposure": "sole",
+      "art": {
+        "kind": "shrub",
+        "leaf": "dark",
+        "flower": "pink",
+        "shape": "big"
+      }
     },
     {
       "id": "morus-nigra",
@@ -200,7 +457,18 @@
       "latin": "Morus nigra",
       "commonName": "Gelso",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Moraceae",
+      "plantType": "albero",
+      "foliage": "caduca",
+      "bloom": "frutti scuri in estate",
+      "exposure": "sole",
+      "art": {
+        "kind": "tree",
+        "leaf": "green",
+        "flower": "wine",
+        "shape": "spread"
+      }
     },
     {
       "id": "carpinus-betulus",
@@ -208,14 +476,34 @@
       "latin": "Carpinus betulus",
       "status": "da-confermare",
       "reviewNote": "«fastigiato» interpretato come 'Fastigiata'.",
-      "note": ""
+      "note": "",
+      "family": "Betulaceae",
+      "plantType": "albero (forma colonnare in ‘Fastigiata’)",
+      "foliage": "caduca",
+      "bloom": "amenti in primavera",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "column",
+        "leaf": "green"
+      }
     },
     {
       "id": "punica-granatum",
       "genus": "Punica",
       "latin": "Punica granatum",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Lythraceae",
+      "plantType": "arbusto o piccolo albero",
+      "foliage": "caduca",
+      "bloom": "giugno–agosto · fiori rosso-arancio, poi frutti",
+      "exposure": "sole",
+      "art": {
+        "kind": "tree",
+        "leaf": "green",
+        "flower": "red",
+        "shape": "small"
+      }
     },
     {
       "id": "corylus-avellana",
@@ -224,7 +512,18 @@
       "commonName": "Nocciolo contorto",
       "status": "da-confermare",
       "reviewNote": "«contorta» interpretato come 'Contorta'.",
-      "note": ""
+      "note": "",
+      "family": "Betulaceae",
+      "plantType": "arbusto (rami contorti in ‘Contorta’)",
+      "foliage": "caduca",
+      "bloom": "febbraio–marzo · amenti gialli",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "olive",
+        "flower": "yellow",
+        "shape": "big"
+      }
     },
     {
       "id": "trachycarpus-fortunei",
@@ -232,14 +531,33 @@
       "latin": "Trachycarpus fortunei",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Chamaerops excelsa», sinonimo di Trachycarpus fortunei. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Arecaceae",
+      "plantType": "palma",
+      "foliage": "sempreverde",
+      "bloom": "primavera · infiorescenze giallo-crema",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "palm",
+        "leaf": "dark",
+        "shape": "hairy"
+      }
     },
     {
       "id": "chamaerops-humilis",
       "genus": "Chamaerops",
       "latin": "Chamaerops humilis",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Arecaceae",
+      "plantType": "palma cespitosa",
+      "foliage": "sempreverde",
+      "bloom": "poco vistosa",
+      "exposure": "sole",
+      "art": {
+        "kind": "palm",
+        "leaf": "sage"
+      }
     },
     {
       "id": "buxus-sempervirens",
@@ -247,7 +565,16 @@
       "latin": "Buxus sempervirens",
       "commonName": "Bosso",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Buxaceae",
+      "plantType": "arbusto",
+      "foliage": "sempreverde",
+      "bloom": "marzo–aprile · fiori poco vistosi",
+      "exposure": "sole / ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "dark"
+      }
     },
     {
       "id": "perovskia-atriplicifolia",
@@ -255,7 +582,17 @@
       "latin": "Perovskia atriplicifolia",
       "status": "da-confermare",
       "reviewNote": "Nomenclatura recente: Salvia yangii. Mantenuto il nome del sito.",
-      "note": ""
+      "note": "",
+      "family": "Lamiaceae",
+      "plantType": "sub-arbusto",
+      "foliage": "caduca",
+      "bloom": "luglio–settembre · spighe azzurro-viola",
+      "exposure": "sole",
+      "art": {
+        "kind": "spike",
+        "leaf": "silver",
+        "flower": "lilac"
+      }
     },
     {
       "id": "lavandula-sp",
@@ -264,7 +601,17 @@
       "commonName": "Lavanda",
       "status": "da-confermare",
       "reviewNote": "Nome ambiguo («Lavanda»): la specie non è indicata.",
-      "note": ""
+      "note": "",
+      "family": "Lamiaceae",
+      "plantType": "arbusto aromatico",
+      "foliage": "sempreverde",
+      "bloom": "giugno–agosto · spighe viola",
+      "exposure": "sole",
+      "art": {
+        "kind": "spike",
+        "leaf": "silver",
+        "flower": "violet"
+      }
     },
     {
       "id": "lavandula-angustifolia",
@@ -272,7 +619,17 @@
       "latin": "Lavandula angustifolia",
       "status": "da-confermare",
       "reviewNote": "«Lavanda hidcote»: 'Hidcote' è una cultivar di L. angustifolia.",
-      "note": ""
+      "note": "",
+      "family": "Lamiaceae",
+      "plantType": "arbusto aromatico",
+      "foliage": "sempreverde",
+      "bloom": "giugno–agosto · spighe viola",
+      "exposure": "sole",
+      "art": {
+        "kind": "spike",
+        "leaf": "silver",
+        "flower": "violet"
+      }
     },
     {
       "id": "erigeron-karvinskianus",
@@ -280,7 +637,17 @@
       "latin": "Erigeron karvinskianus",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Erigeron karviskianthus».",
-      "note": ""
+      "note": "",
+      "family": "Asteraceae",
+      "plantType": "perenne tappezzante",
+      "foliage": "semisempreverde",
+      "bloom": "maggio–ottobre · margherite bianco-rosate",
+      "exposure": "sole",
+      "art": {
+        "kind": "daisy",
+        "leaf": "green",
+        "flower": "white"
+      }
     },
     {
       "id": "erigeron-sp",
@@ -288,7 +655,17 @@
       "latin": "Erigeron sp.",
       "status": "da-confermare",
       "reviewNote": "Citata nel testo di «Corten e graminacee» come «erigeron»: specie non indicata (possibile E. karvinskianus, da confermare).",
-      "note": ""
+      "note": "",
+      "family": "Asteraceae",
+      "plantType": "perenne",
+      "foliage": "semisempreverde",
+      "bloom": "fioritura variabile secondo la specie",
+      "exposure": "sole",
+      "art": {
+        "kind": "daisy",
+        "leaf": "green",
+        "flower": "white"
+      }
     },
     {
       "id": "rosa",
@@ -296,21 +673,51 @@
       "latin": "Rosa",
       "status": "da-confermare",
       "reviewNote": "Rose da giardino: voce unica con la cultivar indicata per progetto ('White Meidiland', 'Iceberg', «Rosa meiland»). Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Rosaceae",
+      "plantType": "arbusto",
+      "foliage": "caduca",
+      "bloom": "maggio–ottobre (varietà rifiorenti)",
+      "exposure": "sole",
+      "art": {
+        "kind": "shrub",
+        "leaf": "green",
+        "flower": "white"
+      }
     },
     {
       "id": "lespedeza-thunbergii",
       "genus": "Lespedeza",
       "latin": "Lespedeza thunbergii",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Fabaceae",
+      "plantType": "arbusto a portamento ricadente",
+      "foliage": "caduca",
+      "bloom": "agosto–ottobre · fiori rosa-porpora",
+      "exposure": "sole",
+      "art": {
+        "kind": "shrub",
+        "leaf": "sage",
+        "flower": "rose"
+      }
     },
     {
       "id": "jasminum-nudiflorum",
       "genus": "Jasminum",
       "latin": "Jasminum nudiflorum",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Oleaceae",
+      "plantType": "arbusto sarmentoso",
+      "foliage": "caduca",
+      "bloom": "gennaio–marzo · fiori gialli",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "vine",
+        "leaf": "green",
+        "flower": "yellow"
+      }
     },
     {
       "id": "salvia-greggii",
@@ -318,7 +725,17 @@
       "latin": "Salvia greggii",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Salvia gregii».",
-      "note": ""
+      "note": "",
+      "family": "Lamiaceae",
+      "plantType": "sub-arbusto",
+      "foliage": "semisempreverde",
+      "bloom": "estate–autunno · fiori rossi, rosa o arancio",
+      "exposure": "sole",
+      "art": {
+        "kind": "spike",
+        "leaf": "green",
+        "flower": "red"
+      }
     },
     {
       "id": "cupressus-sempervirens",
@@ -327,7 +744,16 @@
       "commonName": "Cipresso",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Cupessus». 'Totem' è una cultivar.",
-      "note": ""
+      "note": "",
+      "family": "Cupressaceae",
+      "plantType": "conifera colonnare",
+      "foliage": "sempreverde",
+      "bloom": "—",
+      "exposure": "sole",
+      "art": {
+        "kind": "column",
+        "leaf": "dark"
+      }
     },
     {
       "id": "cuprocyparis-leylandii",
@@ -335,7 +761,17 @@
       "latin": "× Cuprocyparis leylandii",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Cupressuscyaris leylandii» (nel testo «cupressuscyparis»). Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Cupressaceae",
+      "plantType": "conifera da siepe",
+      "foliage": "sempreverde",
+      "bloom": "—",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "column",
+        "leaf": "green",
+        "shape": "wide"
+      }
     },
     {
       "id": "ficus-carica",
@@ -343,7 +779,17 @@
       "latin": "Ficus carica",
       "commonName": "Fico",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Moraceae",
+      "plantType": "albero",
+      "foliage": "caduca",
+      "bloom": "frutti (fichi) in estate",
+      "exposure": "sole",
+      "art": {
+        "kind": "tree",
+        "leaf": "green",
+        "shape": "spread"
+      }
     },
     {
       "id": "arbutus-unedo",
@@ -352,7 +798,18 @@
       "commonName": "Corbezzolo",
       "status": "da-confermare",
       "reviewNote": "Sul sito «Arbuthus».",
-      "note": ""
+      "note": "",
+      "family": "Ericaceae",
+      "plantType": "arbusto o piccolo albero",
+      "foliage": "sempreverde",
+      "bloom": "ottobre–dicembre · campanule bianche e frutti rossi",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "tree",
+        "leaf": "dark",
+        "flower": "red",
+        "shape": "small"
+      }
     },
     {
       "id": "photinia-sp",
@@ -361,7 +818,18 @@
       "commonName": "Photinia",
       "status": "da-confermare",
       "reviewNote": "La specie non è indicata («Photinia a spalliera»).",
-      "note": ""
+      "note": "",
+      "family": "Rosaceae",
+      "plantType": "arbusto (spesso in siepe o spalliera)",
+      "foliage": "sempreverde",
+      "bloom": "maggio · fiori bianchi",
+      "exposure": "sole / mezz’ombra",
+      "art": {
+        "kind": "shrub",
+        "leaf": "dark",
+        "flower": "white",
+        "shape": "big"
+      }
     },
     {
       "id": "stipa-tenuissima",
@@ -369,21 +837,51 @@
       "latin": "Stipa tenuissima",
       "status": "da-confermare",
       "reviewNote": "Nomenclatura recente: Nassella tenuissima. Mantenuto il nome del sito.",
-      "note": ""
+      "note": "",
+      "family": "Poaceae",
+      "plantType": "graminacea",
+      "foliage": "caduca o semisempreverde",
+      "bloom": "estate · pennacchi finissimi",
+      "exposure": "sole",
+      "art": {
+        "kind": "grass",
+        "leaf": "olive",
+        "flower": "cream"
+      }
     },
     {
       "id": "verbena-bonariensis",
       "genus": "Verbena",
       "latin": "Verbena bonariensis",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Verbenaceae",
+      "plantType": "perenne ad alti steli",
+      "foliage": "caduca",
+      "bloom": "luglio–ottobre · fiori viola",
+      "exposure": "sole",
+      "art": {
+        "kind": "umbel",
+        "leaf": "green",
+        "flower": "violet"
+      }
     },
     {
       "id": "panicum-virgatum",
       "genus": "Panicum",
       "latin": "Panicum virgatum",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Poaceae",
+      "plantType": "graminacea",
+      "foliage": "caduca",
+      "bloom": "estate–autunno · pannocchie aeree",
+      "exposure": "sole",
+      "art": {
+        "kind": "grass",
+        "leaf": "sage",
+        "flower": "bronze"
+      }
     },
     {
       "id": "parthenocissus-sp",
@@ -392,7 +890,17 @@
       "commonName": "Vite del Canada",
       "status": "da-confermare",
       "reviewNote": "«Vite del Canada» è ambiguo (più specie di Parthenocissus): genere presunto, specie non scelta. Da confermare.",
-      "note": ""
+      "note": "",
+      "family": "Vitaceae",
+      "plantType": "rampicante",
+      "foliage": "caduca",
+      "bloom": "colore rosso in autunno",
+      "exposure": "sole / ombra",
+      "art": {
+        "kind": "vine",
+        "leaf": "red",
+        "shape": "palmate"
+      }
     },
     {
       "id": "erbe-aromatiche",
@@ -400,14 +908,33 @@
       "commonName": "Erbe aromatiche",
       "status": "da-confermare",
       "reviewNote": "«Erbe aromatiche in varietà»: varietà e specie non indicate.",
-      "note": ""
+      "note": "",
+      "family": "—",
+      "plantType": "erbe aromatiche",
+      "foliage": "variabile",
+      "bloom": "varietà non indicate",
+      "exposure": "sole",
+      "art": {
+        "kind": "herbs",
+        "leaf": "sage"
+      }
     },
     {
       "id": "acer-palmatum",
       "genus": "Acer",
       "latin": "Acer palmatum",
       "status": "da-confermare",
-      "note": ""
+      "note": "",
+      "family": "Sapindaceae",
+      "plantType": "piccolo albero",
+      "foliage": "caduca",
+      "bloom": "colori autunnali",
+      "exposure": "mezz’ombra riparata",
+      "art": {
+        "kind": "tree",
+        "leaf": "red",
+        "shape": "small"
+      }
     }
   ]
 }

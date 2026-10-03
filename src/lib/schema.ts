@@ -94,6 +94,14 @@ export const Plant = z.object({
   genus: z.string(),
   status: z.enum(["da-confermare", "confermata"]).default("da-confermare"),
   reviewNote: z.string().optional(),
+  /** caratteristiche generali (indicative, da verificare con Augusta) */
+  family: z.string().optional(),
+  plantType: z.string().optional(),
+  foliage: z.string().optional(),
+  bloom: z.string().optional(),
+  exposure: z.string().optional(),
+  /** illustrazione schematica SVG: archetipo + colori (vedi src/lib/plantArt.ts) */
+  art: z.object({ kind: z.string(), leaf: z.string().optional(), flower: z.string().optional(), shape: z.string().optional() }).optional(),
   /** breve nota di Augusta: vuota finché non la scrive */
   note: z.string().default(""),
 });
