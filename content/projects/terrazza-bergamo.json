@@ -1,0 +1,123 @@
+{
+  "kind": "project",
+  "slug": "terrazza-bergamo",
+  "title": "Terrazza Bergamo",
+  "place": {
+    "name": "Bergamo, centro",
+    "status": "text"
+  },
+  "type": "terrazza di uffici",
+  "tagline": "La sfida era creare un ambiente piacevole e fruibile a basso costo.",
+  "signature": [
+    "Doghe di larice",
+    "Striscia LED nel setto",
+    "Graminacee ornamentali"
+  ],
+  "pullQuote": "Nuvole di graminacee ornamentali unite alle fioriture delle gaure e delle verbene rendono un effetto morbido e etereo.",
+  "seoDescription": "Terrazza di uffici nel centro di Bergamo: doghe di larice, graminacee ornamentali e una striscia a led nel setto per un effetto scenografico di notte.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Questa terrazza fa da scenografia sfondo a degli uffici in pieno centro a Bergamo città."
+      ]
+    },
+    {
+      "kind": "need",
+      "paragraphs": [
+        "La sfida era creare un ambiente piacevole e fruibile a basso costo."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "In accordo con i committenti, due giovani imprenditori, ho pensato di rivestire il pavimento esistente con delle doghe di larice, che poi ho utilizzato anche per creare il setto verticale atto a mascherare i vasi in plastica che abbiamo posizionato verso la ringhiera. Questo semplice accorgimento ha realizzato il suo scopo.",
+        "Nuvole di graminacee ornamentali unite alle fioriture delle gaure e delle verbene rendono un effetto morbido e etereo."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Una esile struttura in ferro insieme a delle tende ombreggianti bianche riparano gli arredi Ikea e creano un ambiente adatto per ricevere clienti o per lavorare anche all’aria aperta."
+      ]
+    },
+    {
+      "kind": "night",
+      "paragraphs": [
+        "Inoltre, con l’inserimento di una striscia a led all’interno del setto ho creato un effetto molto scenografico di notte."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "stipa-tenuissima",
+      "original": "Stipa tenuissima",
+      "source": "list"
+    },
+    {
+      "plant": "gaura-lindheimeri",
+      "original": "Gaura lindeimerii butterflies",
+      "source": "list",
+      "cultivar": "'Butterflies'"
+    },
+    {
+      "plant": "verbena-bonariensis",
+      "original": "Verbena bonariensis",
+      "source": "list"
+    },
+    {
+      "plant": "panicum-virgatum",
+      "original": "Panicum virgatum",
+      "source": "list"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-foto9.1.jpg",
+      "alt": "Sedie bianche e un tavolino sul deck in doghe di larice, con le graminacee lungo il setto.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto9.1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-foto9.4.jpg",
+      "alt": "La terrazza di sera: la striscia a led illumina le graminacee lungo il setto.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto9.4.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-foto9.3.jpg",
+      "alt": "Sedie bianche sotto le tende ombreggianti, con le graminacee e gli edifici del centro di Bergamo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto9.3.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto9.2.jpg",
+      "alt": "Il setto in doghe di larice che nasconde i vasi, con nuvole di graminacee.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto9.2.jpg"
+    }
+  ],
+  "cover": "02",
+  "legacyPath": "/terrazza_bergamo/",
+  "sourcePage": "https://augusta-giardini.it/terrazza_bergamo/"
+}

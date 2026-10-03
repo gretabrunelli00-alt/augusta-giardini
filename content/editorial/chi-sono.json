@@ -1,0 +1,64 @@
+{
+  "kind": "editorial",
+  "slug": "chi-sono",
+  "title": "Chi sono",
+  "seoDescription": "Augusta Mara Bertoni, garden designer dal 2006: balconi, terrazze, giardini pensili, giardini e parchi. «Il cielo in una stanza».",
+  "front": {
+    "kicker": "Chi sono",
+    "phrase": "Il cielo in una stanza",
+    "caption": "La mia filosofia"
+  },
+  "images": [
+    {
+      "id": "portrait",
+      "file": "01-portrait.jpg",
+      "alt": "Ritratto di Augusta Mara Bertoni.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/augusta-giardini.jpg"
+    },
+    {
+      "id": "filosofia",
+      "file": "02-filosofia.png",
+      "alt": "Grandi foglie di hosta verde-azzurro su un fondo di ghiaia, con le punte di due scarpe in basso.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/04/Lamiafilosofia.png"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Percorso e formazione",
+      "paragraphs": [
+        "Di formazione artistica, proseguo gli studi nell’ambito dell’interior designer e dell’Arte dei giardini (corso tenuto dal prof. Marco Raja allievo del Porcinai) presso l’Ateneo Artistico di Milano. Durante gli studi a Milano lavoro in varie realtà nel settore dell’arredamento ed in seguito per 15 anni, presso un’azienda di progettazione e realizzazione giardini come responsabile dell’ufficio tecnico.",
+        "Dal 2006 come libero professionista nell’ambito della progettazione di balconi, terrazze, giardini pensili, giardini e parchi. Dalla mia passione e curiosità per l’arte, la musica, la fotografia, i libri e i viaggi traggo ispirazione per il mio lavoro."
+      ],
+      "facts": [
+        {
+          "value": "2006",
+          "label": "libera professionista"
+        },
+        {
+          "value": "15",
+          "label": "anni in un’azienda di giardini"
+        }
+      ]
+    },
+    {
+      "heading": "La mia filosofia",
+      "quote": "Il cielo in una stanza",
+      "paragraphs": [
+        "Sia grazie alla formazione artistica che quella legata all’interior, progettando un giardino lo penso come ad una stanza con il cielo. Uno spazio intimo e protetto, dove potersi sentire coccolato e accolto come a casa.",
+        "La differenza è che il giardino non è uno spazio statico, ma un ambiente dove poter godere di mutevoli aspetti. Lavorando al progetto di un giardino si percepiscono elementi inafferrabili come la luce le ombre, il movimento e il suono dato dal vento dell’acqua e lo scorrere del tempo scandito dal ritmo della giornata e dalle stagioni. Il giardino è uno spazio di sensazioni in continuo movimento e mutamento.",
+        "Ogni progetto nasce da valori ed elementi aspetti imprescindibili l’uno dall’altro: la storia, il luogo, l’architettura. Un ottimo progetto è il frutto di un cammino fatto insieme, committente e progettista; Il confronto costante con il committente è alla base del progetto; interscambi di informazioni, richieste, necessità, visioni da entrambe le parti.",
+        "Il mio lavoro evidenzia linee armoniose, rigorose e contemporanee, conferendo forme e spazialità che aiutano a valorizzare il paesaggio rendendolo visibile e fruibile, senza prevaricare l’identità e l’unicità del luogo. Creare spazi senza tempo, con un approccio in continua evoluzione sia in risposta ai singoli clienti che alle caratteristiche uniche del luogo."
+      ]
+    }
+  ]
+}

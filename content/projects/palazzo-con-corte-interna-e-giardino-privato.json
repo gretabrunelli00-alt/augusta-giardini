@@ -1,0 +1,166 @@
+{
+  "kind": "project",
+  "slug": "palazzo-con-corte-interna-e-giardino-privato",
+  "title": "Palazzo con corte interna e giardino privato",
+  "titleOriginal": "Palazzo con corte  interna e giardino privato",
+  "placeNote": "uno dei borghi più belli d’Italia (non nominato)",
+  "type": "corte interna e giardino privato",
+  "tagline": "Un effetto caldo e molto accogliente anche di notte.",
+  "signature": [
+    "Vasi in ferro su misura",
+    "Vasi in argilla con ossidi",
+    "Lanterne in ferro e vetro"
+  ],
+  "pullQuote": "Ogni piano ha un affaccio sul cortile: la vista dall’alto è molto scenografica e su ogni balcone sono stati inseriti vasi ed elementi scultorei.",
+  "seoDescription": "Piccola corte interna di un palazzo in un borgo storico, con alberi in vasi in ferro su misura, lanterne artigianali e un giardino privato al terzo piano.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Situata in uno dei borghi più belli d’Italia, questa piccola corte interna è stata ripensata con alberature poste all’interno di vasi in ferro disegnati e creati su misura per questo spazio.",
+        "Ogni piano ha un affaccio sul cortile: la vista dall’alto è molto scenografica e su ogni balcone sono stati inseriti vasi ed elementi scultorei."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "Dal terzo piano di questo meraviglioso palazzo si accede ad un piccolo giardino privato dove, nella parte coperta, è stata ricavata una cucina e, successivamente, predisposta una zona living con tavolo e sedie per i momenti conviviali.",
+        "Il giardino è molto semplice, ho studiato un piccolo orto con aromatiche delimitato da pannelli in salice intrecciato, e l’unica alberatura dominante è un ulivo.",
+        "Nella zona decking sono state disposte ulteriori sedute ed un piccolo tavolo per la colazione, il tutto circondato da vasi con arbusti e bossi."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Altri vasi in argilla, fatti artigianalmente e colorati con ossidi naturali, sono stati poi scelti per accogliere essenze antiche come l’Asparagus sprengeri, arbusto utilizzato da sempre per le zone d’ombra come patii e portici."
+      ]
+    },
+    {
+      "kind": "night",
+      "paragraphs": [
+        "Ho selezionato delle lanterne artigianali in ferro vetro, sia da parete che a sospensione per dare un effetto caldo e molto accogliente anche di notte."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "asparagus-sprengeri",
+      "original": "Asparagus sprengeri",
+      "source": "list"
+    },
+    {
+      "plant": "hydrangea-arborescens",
+      "original": "Hydrangea hannabelle",
+      "source": "list",
+      "cultivar": "'Annabelle'"
+    },
+    {
+      "plant": "erbe-aromatiche",
+      "original": "Erbe aromatiche in varietà",
+      "source": "list"
+    },
+    {
+      "plant": "phormium-tenax",
+      "original": "Phormium atropurpurea / Phormium tenax variegato",
+      "source": "list",
+      "cultivar": "'Atropurpureum'",
+      "variant": "variegato"
+    },
+    {
+      "plant": "agapanthus-africanus",
+      "original": "Agapanthus africanus",
+      "source": "list"
+    },
+    {
+      "plant": "buxus-sempervirens",
+      "original": "Buxus sempervirens",
+      "source": "list"
+    },
+    {
+      "plant": "punica-granatum",
+      "original": "Punica granatum",
+      "source": "list"
+    },
+    {
+      "plant": "acer-palmatum",
+      "original": "Acer palmatum",
+      "source": "list"
+    },
+    {
+      "plant": "olea-europaea",
+      "original": "ulivo",
+      "source": "text"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-foto8.1.jpg",
+      "alt": "Un acero in vaso accanto alla scala in pietra della corte, con le pareti color terra.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.4,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto8.1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-7-evaristo.jpg",
+      "alt": "La corte di sera: alberi in vasi in ferro su misura, una palma e luci a terra.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/7-evaristo.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-foto8.4.jpg",
+      "alt": "Un agave sulla parete rosata, ortensie e un bosso sotto la finestra con inferriata.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.6,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto8.4.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto8.2.jpg",
+      "alt": "Un arbusto dalle foglie rosse davanti al palazzo, con i balconi fioriti ai piani superiori.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto8.2.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-9-evaristo.jpg",
+      "alt": "Un vaso scuro su un basamento con una pianta dal fogliame leggero, accanto alla porta con le persiane.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.4,
+        "y": 0.45
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/9-evaristo.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-foto8.6.jpg",
+      "alt": "Un arco illuminato da una lanterna in ferro e vetro sospesa, con un albero in vaso sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto8.6.jpg"
+    }
+  ],
+  "cover": "02",
+  "legacyPath": "/palazzo_con_corte_interna_e_giardino_privato/",
+  "sourcePage": "https://augusta-giardini.it/palazzo_con_corte_interna_e_giardino_privato/"
+}

@@ -1,0 +1,413 @@
+{
+  "plants": [
+    {
+      "id": "malus-floribunda",
+      "genus": "Malus",
+      "latin": "Malus floribunda",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "cornus-florida",
+      "genus": "Cornus",
+      "latin": "Cornus florida",
+      "status": "da-confermare",
+      "reviewNote": "Il sito scrive «Cornus florida rubra»: interpretato come cultivar 'Rubra'.",
+      "note": ""
+    },
+    {
+      "id": "cycas-revoluta",
+      "genus": "Cycas",
+      "latin": "Cycas revoluta",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "laurus-nobilis",
+      "genus": "Laurus",
+      "latin": "Laurus nobilis",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "phormium-tenax",
+      "genus": "Phormium",
+      "latin": "Phormium tenax",
+      "status": "da-confermare",
+      "reviewNote": "Voci unite per specie: «Phormium tenax variegato» e «Phormium atropurpurea» (inteso come P. tenax 'Atropurpureum', come da indicazione). Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "phormium-sp",
+      "genus": "Phormium",
+      "latin": "Phormium sp.",
+      "status": "da-confermare",
+      "reviewNote": "Il sito scrive solo «Phormium variegato» (o «phormium» nel testo): specie non indicata, quindi voce separata da P. tenax. Da confermare se è P. tenax.",
+      "note": ""
+    },
+    {
+      "id": "asparagus-sprengeri",
+      "genus": "Asparagus",
+      "latin": "Asparagus densiflorus",
+      "status": "da-confermare",
+      "reviewNote": "«Asparagus sprengerii/sprengeri» è un sinonimo di A. densiflorus 'Sprengeri'. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "hydrangea-paniculata",
+      "genus": "Hydrangea",
+      "latin": "Hydrangea paniculata",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "hydrangea-arborescens",
+      "genus": "Hydrangea",
+      "latin": "Hydrangea arborescens",
+      "status": "da-confermare",
+      "reviewNote": "Il sito scrive «Hydrangea hannabelle»: interpretato come 'Annabelle'. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "hydrangea-macrophylla",
+      "genus": "Hydrangea",
+      "latin": "Hydrangea macrophylla",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "pachysandra-terminalis",
+      "genus": "Pachysandra",
+      "latin": "Pachysandra terminalis",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Pachisandra»: refuso.",
+      "note": ""
+    },
+    {
+      "id": "trachelospermum-jasminoides",
+      "genus": "Trachelospermum",
+      "latin": "Trachelospermum jasminoides",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Rhycospermum jasminoides»: nome non valido (probabile sinonimo antico Rhynchospermum). Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "agapanthus-africanus",
+      "genus": "Agapanthus",
+      "latin": "Agapanthus africanus",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Agapahanthus/Agapanthus africanus». In vivaio il nome africanus è spesso usato per A. praecox: da confermare.",
+      "note": ""
+    },
+    {
+      "id": "opuntia-sp",
+      "genus": "Opuntia",
+      "latin": "Opuntia sp.",
+      "status": "da-confermare",
+      "reviewNote": "Nome ambiguo: la specie non è indicata.",
+      "note": ""
+    },
+    {
+      "id": "agave-americana",
+      "genus": "Agave",
+      "latin": "Agave americana",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "agave-sp",
+      "genus": "Agave",
+      "latin": "Agave sp.",
+      "status": "da-confermare",
+      "reviewNote": "Citata nel testo di «Corten e graminacee» come «agavi»: specie non indicata.",
+      "note": ""
+    },
+    {
+      "id": "pittosporum-tobira",
+      "genus": "Pittosporum",
+      "latin": "Pittosporum tobira",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Pittosporo tobira nano»: inteso come cultivar 'Nanum'. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "olea-europaea",
+      "genus": "Olea",
+      "latin": "Olea europaea",
+      "commonName": "Ulivo",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "salvia-rosmarinus",
+      "genus": "Salvia",
+      "latin": "Salvia rosmarinus",
+      "commonName": "Rosmarino prostrato",
+      "status": "da-confermare",
+      "reviewNote": "Sinonimo: Rosmarinus officinalis. «Prostrato» interpretato come 'Prostratus'. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "gaura-lindheimeri",
+      "genus": "Gaura",
+      "latin": "Gaura lindheimeri",
+      "status": "da-confermare",
+      "reviewNote": "Oggi il nome accettato è Oenothera lindheimeri. Sul sito «lindeimerii/lindheimeri»; cultivar 'Butterfly' / 'Butterflies' da confermare.",
+      "note": ""
+    },
+    {
+      "id": "anemone-hybrida",
+      "genus": "Anemone",
+      "latin": "Anemone × hybrida",
+      "status": "da-confermare",
+      "reviewNote": "«Anemone honorine joberth» interpretato come 'Honorine Jobert'. Voce unita con «Anemone hybrida» (Fonteno).",
+      "note": ""
+    },
+    {
+      "id": "anemone-sp",
+      "genus": "Anemone",
+      "latin": "Anemone sp.",
+      "status": "da-confermare",
+      "reviewNote": "Citata nel testo di «Corten e graminacee» come «anemoni»: specie non indicata.",
+      "note": ""
+    },
+    {
+      "id": "yucca-rostrata",
+      "genus": "Yucca",
+      "latin": "Yucca rostrata",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "plumbago-auriculata",
+      "genus": "Plumbago",
+      "latin": "Plumbago auriculata",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Plumbago auricolata».",
+      "note": ""
+    },
+    {
+      "id": "nerium-oleander",
+      "genus": "Nerium",
+      "latin": "Nerium oleander",
+      "commonName": "Oleandro",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "morus-nigra",
+      "genus": "Morus",
+      "latin": "Morus nigra",
+      "commonName": "Gelso",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "carpinus-betulus",
+      "genus": "Carpinus",
+      "latin": "Carpinus betulus",
+      "status": "da-confermare",
+      "reviewNote": "«fastigiato» interpretato come 'Fastigiata'.",
+      "note": ""
+    },
+    {
+      "id": "punica-granatum",
+      "genus": "Punica",
+      "latin": "Punica granatum",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "corylus-avellana",
+      "genus": "Corylus",
+      "latin": "Corylus avellana",
+      "commonName": "Nocciolo contorto",
+      "status": "da-confermare",
+      "reviewNote": "«contorta» interpretato come 'Contorta'.",
+      "note": ""
+    },
+    {
+      "id": "trachycarpus-fortunei",
+      "genus": "Trachycarpus",
+      "latin": "Trachycarpus fortunei",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Chamaerops excelsa», sinonimo di Trachycarpus fortunei. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "chamaerops-humilis",
+      "genus": "Chamaerops",
+      "latin": "Chamaerops humilis",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "buxus-sempervirens",
+      "genus": "Buxus",
+      "latin": "Buxus sempervirens",
+      "commonName": "Bosso",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "perovskia-atriplicifolia",
+      "genus": "Perovskia",
+      "latin": "Perovskia atriplicifolia",
+      "status": "da-confermare",
+      "reviewNote": "Nomenclatura recente: Salvia yangii. Mantenuto il nome del sito.",
+      "note": ""
+    },
+    {
+      "id": "lavandula-sp",
+      "genus": "Lavandula",
+      "latin": "Lavandula sp.",
+      "commonName": "Lavanda",
+      "status": "da-confermare",
+      "reviewNote": "Nome ambiguo («Lavanda»): la specie non è indicata.",
+      "note": ""
+    },
+    {
+      "id": "lavandula-angustifolia",
+      "genus": "Lavandula",
+      "latin": "Lavandula angustifolia",
+      "status": "da-confermare",
+      "reviewNote": "«Lavanda hidcote»: 'Hidcote' è una cultivar di L. angustifolia.",
+      "note": ""
+    },
+    {
+      "id": "erigeron-karvinskianus",
+      "genus": "Erigeron",
+      "latin": "Erigeron karvinskianus",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Erigeron karviskianthus».",
+      "note": ""
+    },
+    {
+      "id": "erigeron-sp",
+      "genus": "Erigeron",
+      "latin": "Erigeron sp.",
+      "status": "da-confermare",
+      "reviewNote": "Citata nel testo di «Corten e graminacee» come «erigeron»: specie non indicata (possibile E. karvinskianus, da confermare).",
+      "note": ""
+    },
+    {
+      "id": "rosa",
+      "genus": "Rosa",
+      "latin": "Rosa",
+      "status": "da-confermare",
+      "reviewNote": "Rose da giardino: voce unica con la cultivar indicata per progetto ('White Meidiland', 'Iceberg', «Rosa meiland»). Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "lespedeza-thunbergii",
+      "genus": "Lespedeza",
+      "latin": "Lespedeza thunbergii",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "jasminum-nudiflorum",
+      "genus": "Jasminum",
+      "latin": "Jasminum nudiflorum",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "salvia-greggii",
+      "genus": "Salvia",
+      "latin": "Salvia greggii",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Salvia gregii».",
+      "note": ""
+    },
+    {
+      "id": "cupressus-sempervirens",
+      "genus": "Cupressus",
+      "latin": "Cupressus sempervirens",
+      "commonName": "Cipresso",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Cupessus». 'Totem' è una cultivar.",
+      "note": ""
+    },
+    {
+      "id": "cuprocyparis-leylandii",
+      "genus": "Cuprocyparis",
+      "latin": "× Cuprocyparis leylandii",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Cupressuscyaris leylandii» (nel testo «cupressuscyparis»). Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "ficus-carica",
+      "genus": "Ficus",
+      "latin": "Ficus carica",
+      "commonName": "Fico",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "arbutus-unedo",
+      "genus": "Arbutus",
+      "latin": "Arbutus unedo",
+      "commonName": "Corbezzolo",
+      "status": "da-confermare",
+      "reviewNote": "Sul sito «Arbuthus».",
+      "note": ""
+    },
+    {
+      "id": "photinia-sp",
+      "genus": "Photinia",
+      "latin": "Photinia sp.",
+      "commonName": "Photinia",
+      "status": "da-confermare",
+      "reviewNote": "La specie non è indicata («Photinia a spalliera»).",
+      "note": ""
+    },
+    {
+      "id": "stipa-tenuissima",
+      "genus": "Stipa",
+      "latin": "Stipa tenuissima",
+      "status": "da-confermare",
+      "reviewNote": "Nomenclatura recente: Nassella tenuissima. Mantenuto il nome del sito.",
+      "note": ""
+    },
+    {
+      "id": "verbena-bonariensis",
+      "genus": "Verbena",
+      "latin": "Verbena bonariensis",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "panicum-virgatum",
+      "genus": "Panicum",
+      "latin": "Panicum virgatum",
+      "status": "da-confermare",
+      "note": ""
+    },
+    {
+      "id": "parthenocissus-sp",
+      "genus": "Parthenocissus",
+      "latin": "Parthenocissus sp.",
+      "commonName": "Vite del Canada",
+      "status": "da-confermare",
+      "reviewNote": "«Vite del Canada» è ambiguo (più specie di Parthenocissus): genere presunto, specie non scelta. Da confermare.",
+      "note": ""
+    },
+    {
+      "id": "erbe-aromatiche",
+      "genus": "—",
+      "commonName": "Erbe aromatiche",
+      "status": "da-confermare",
+      "reviewNote": "«Erbe aromatiche in varietà»: varietà e specie non indicate.",
+      "note": ""
+    },
+    {
+      "id": "acer-palmatum",
+      "genus": "Acer",
+      "latin": "Acer palmatum",
+      "status": "da-confermare",
+      "note": ""
+    }
+  ]
+}

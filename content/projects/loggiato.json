@@ -1,0 +1,113 @@
+{
+  "kind": "project",
+  "slug": "loggiato",
+  "title": "Loggiato",
+  "type": "loggiato",
+  "tagline": "Gli archi sono stati decorati con dei tendaggi bianchi.",
+  "signature": [
+    "Fontana in travertino",
+    "Vasi in ferro",
+    "Tendaggi bianchi"
+  ],
+  "pullQuote": "…lo spazio che mi è stato fornito è stato trattato come una continuità con l’interno.",
+  "seoDescription": "Loggiato di casa signorile dei primi del Novecento trattato come continuità con l’interno: tendaggi bianchi, arredi in ferro da brasserie, fontana in travertino.",
+  "sections": [
+    {
+      "kind": "intro",
+      "paragraphs": [
+        "In questo tipico loggiato delle case signorili dei primi del 900, lo spazio che mi è stato fornito è stato trattato come una continuità con l’interno.",
+        "Gli archi sono stati decorati con dei tendaggi bianchi, mentre i piccoli arredi per la colazione sono i tavoli e le sedie in ferro da brasserie.",
+        "Completano il progetto una fontana in travertino e dei vasi in ferro con delle essenze stagionali, rosmarini e salvie."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "salvia-rosmarinus",
+      "original": "Rosmarino prostrato",
+      "source": "list",
+      "cultivar": "'Prostratus'"
+    },
+    {
+      "plant": "salvia-greggii",
+      "original": "Salvia gregii",
+      "source": "list"
+    },
+    {
+      "plant": "asparagus-sprengeri",
+      "original": "Asparagus sprengerii",
+      "source": "list"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-IMG_6541-1.jpg",
+      "alt": "Il loggiato con i tendaggi bianchi tra gli archi, un tavolino da brasserie e i tetti del paese.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6541-1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-IMG_6542-1.jpg",
+      "alt": "Un vaso in ferro con una pianta dai fiori bianchi lungo il loggiato.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.3,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6542-1.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-IMG_6548-1.jpg",
+      "alt": "Tavolo e sedia in ferro sul loggiato affacciato sui tetti, con la montagna sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6548-1.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-IMG_6565-1.jpg",
+      "alt": "Il loggiato in prospettiva, con i tendaggi bianchi e i vasi in ferro.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6565-1.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-IMG_6570-1.jpg",
+      "alt": "I tendaggi bianchi e una graminacea in vaso nell’angolo del loggiato.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6570-1.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-IMG_6576-1.jpg",
+      "alt": "Tavolino e due sedie pieghevoli in ferro con cuscini, tra i tendaggi: vista sui tetti e sul lago.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6576-1.jpg"
+    }
+  ],
+  "cover": "06",
+  "legacyPath": "/loggiato/",
+  "sourcePage": "https://augusta-giardini.it/loggiato/"
+}

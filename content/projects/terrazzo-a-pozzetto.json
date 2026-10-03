@@ -1,0 +1,77 @@
+{
+  "kind": "project",
+  "slug": "terrazzo-a-pozzetto",
+  "title": "Terrazzo a pozzetto",
+  "type": "terrazzo",
+  "tagline": "Ampie sedute arredano questo spazio privato, accogliente e intimo.",
+  "signature": [
+    "Doghe di greenwood",
+    "Specchi"
+  ],
+  "pullQuote": "…intervallando le parti verticali con degli specchi per dare profondità allo spazio ridotto.",
+  "seoDescription": "Terrazzo a pozzetto rivestito in doghe di greenwood e specchi per dare profondità allo spazio ridotto: un luogo privato, accogliente e intimo.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Nello stadio iniziale, questo terrazzo si presentava rivestito di resina grigia."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "Per renderlo maggiormente accogliente e confortevole ho pensato di rivestire il pavimento e le pareti con doghe di Greenwood, intervallando le parti verticali con degli specchi per dare profondità allo spazio ridotto. Ampie sedute arredano questo spazio privato, accogliente e intimo."
+      ]
+    }
+  ],
+  "plants": [],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-IMG_6763.jpg",
+      "alt": "Il terrazzo al tramonto: un tavolo tondo con lanterne dorate e sedute intrecciate; sullo sfondo il lago.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6763.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-IMG_6587-1.jpg",
+      "alt": "Sedute e tavolini sul terrazzo rivestito in doghe, con un cactus in vaso e la vista su lago e montagne.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.55,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6587-1.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-IMG_6610-1.jpg",
+      "alt": "Poltrone con cuscini bianchi e un tavolo tondo, con il lago e le montagne alle spalle.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6610-1.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto5.3.jpg",
+      "alt": "Un angolo del terrazzo con una poltrona, lo specchio nella parete di doghe e un cactus in vaso.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto5.3.jpg"
+    }
+  ],
+  "cover": "03",
+  "legacyPath": "/terrazzo_a_pozzetto/",
+  "sourcePage": "https://augusta-giardini.it/terrazzo_a_pozzetto/"
+}

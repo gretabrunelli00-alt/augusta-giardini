@@ -1,0 +1,219 @@
+{
+  "kind": "project",
+  "slug": "roof-garden-vista-lago",
+  "title": "Roof garden vista lago",
+  "place": {
+    "name": "Basso Sebino",
+    "status": "text"
+  },
+  "type": "roof garden",
+  "tagline": "Situato nel Basso Sebino, questo meraviglioso roof garden offre soluzioni di relax e una vista incantevole sul lago.",
+  "signature": [
+    "Bianco",
+    "Decking in legno composito",
+    "Minipiscina"
+  ],
+  "pullQuote": "Il sogno dei miei clienti era la realizzazione di una terrazza in stile mediterraneo con dei richiami alle isole greche.",
+  "seoDescription": "Roof garden nel Basso Sebino con vista sul lago: terrazza bianca di taglio geometrico con cucina outdoor, minipiscina e decking. Progetto di Augusta Architettura Giardini.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Situato nel Basso Sebino, questo meraviglioso roof garden offre soluzioni di relax e una vista incantevole sul lago.",
+        "Dal primo sopralluogo ho capito la forte potenzialità di uno spazio come questo, posizionato in una zona panoramica e molto tranquilla."
+      ]
+    },
+    {
+      "kind": "need",
+      "paragraphs": [
+        "Il sogno dei miei clienti era la realizzazione di una terrazza in stile mediterraneo con dei richiami alle isole greche. Il colore predominante doveva essere il bianco."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "La progettazione della terrazza ha taglio e rigore geometrico poiché lo spazio ricavato ha rivelato delle zone ben definite e marcate.",
+        "Di fronte all’area living ho posizionato una doccia riparata da fioriere in muratura, mentre, fronte lago, è stata inserita una minipiscina avvolta nel verde, con una vista mozzafiato sul panorama.",
+        "Sul lato a valle sono state, invece, realizzate ampie sedute in muratura dove potersi rilassare leggendo un libro oppure semplicemente ammirando lo splendido paesaggio circostante."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Nella zona living, riparata da una pergola con lamelle orientabili, è stata inserita una cucina outdoor con un piano in cemento e ante in ferro laccato bianco. Sia le sedute che il tavolo sono state dapprima realizzate in cemento e successivamente rivestite in resina bianca.",
+        "Infine, per la pavimentazione galleggiante ho pensato fosse opportuno utilizzare un decking di legno composto di colore bianco."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "agave-americana",
+      "original": "Agave americana",
+      "source": "list"
+    },
+    {
+      "plant": "pittosporum-tobira",
+      "original": "Pittosporo tobira nano",
+      "source": "list",
+      "cultivar": "'Nanum'"
+    },
+    {
+      "plant": "cycas-revoluta",
+      "original": "Cycas revoluta",
+      "source": "list"
+    },
+    {
+      "plant": "olea-europaea",
+      "original": "Ulivo",
+      "source": "list"
+    },
+    {
+      "plant": "salvia-rosmarinus",
+      "original": "Rosmarino prostrato",
+      "source": "list",
+      "cultivar": "'Prostratus'"
+    },
+    {
+      "plant": "gaura-lindheimeri",
+      "original": "Gaura lindeimerii",
+      "source": "list"
+    },
+    {
+      "plant": "anemone-hybrida",
+      "original": "Anemone honorine joberth",
+      "source": "list",
+      "cultivar": "'Honorine Jobert'"
+    },
+    {
+      "plant": "yucca-rostrata",
+      "original": "Yucca rostrata",
+      "source": "list"
+    },
+    {
+      "plant": "phormium-sp",
+      "original": "Phormium variegato",
+      "source": "list",
+      "variant": "variegato"
+    },
+    {
+      "plant": "agapanthus-africanus",
+      "original": "Agapanthus africanus",
+      "source": "list"
+    },
+    {
+      "plant": "plumbago-auriculata",
+      "original": "Plumbago auricolata",
+      "source": "list"
+    },
+    {
+      "plant": "nerium-oleander",
+      "original": "Nerium oleander a fiore bianco",
+      "source": "list",
+      "variant": "a fiore bianco"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-IMG_6914-1.jpg",
+      "alt": "La minipiscina sopraelevata con i gradini rivestiti di bianco; lettini e pergola sullo sfondo, un phormium in primo piano.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6914-1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-IMG_6936-1.jpg",
+      "alt": "Gradini bianchi che salgono alla minipiscina, con un ulivo e un phormium sul bordo della terrazza e il lago sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6936-1.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-IMG_6953-1.jpg",
+      "alt": "La terrazza bianca con la minipiscina e un’amaca, davanti al lago e alle montagne.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.62,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6953-1.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-IMG_6980-1.jpg",
+      "alt": "Un ulivo e un phormium incorniciano la terrazza bianca: la minipiscina, l’amaca, il lago e i monti sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.62,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6980-1.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-IMG_6850-1.jpg",
+      "alt": "Cuscini sulla seduta in muratura bianca, con fiori di anemone in primo piano e il lago sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.45,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6850-1.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-IMG_6927-1.jpg",
+      "alt": "Lettini con cuscini a righe, lanterne e ombrellone sul decking bianco, con la pergola sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6927-1.jpg"
+    },
+    {
+      "id": "07",
+      "file": "07-IMG_6945-1.jpg",
+      "alt": "Ombrellone, minipiscina e lanterna in vetro con vista sul lago; anemoni bianchi in primo piano.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6945-1.jpg"
+    },
+    {
+      "id": "08",
+      "file": "08-IMG_6938-1.jpg",
+      "alt": "Il tavolo da pranzo bianco con sedie pieghevoli e l’amaca, sotto la pergola.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6938-1.jpg"
+    },
+    {
+      "id": "09",
+      "file": "09-IMG_6977-1.jpg",
+      "alt": "La doccia a colonna riparata da fioriere in muratura e circondata da piante e anemoni bianchi.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6977-1.jpg"
+    }
+  ],
+  "cover": "04",
+  "legacyPath": "/roof_garden_vista_lago/",
+  "sourcePage": "https://augusta-giardini.it/roof_garden_vista_lago/"
+}

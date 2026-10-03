@@ -1,0 +1,31 @@
+{
+  "kind": "editorial",
+  "slug": "come-lavoro",
+  "title": "Come lavoro",
+  "seoDescription": "Come lavoro: l’incontro, l’idea, il progetto, il fare. Dal sopralluogo alla direzione lavori, ogni fase di un giardino seguita da Augusta Architettura Giardini.",
+  "front": {
+    "kicker": "Come lavoro"
+  },
+  "phases": [
+    {
+      "title": "L’incontro",
+      "quote": "Osservo e mi confronto",
+      "text": "Il sopralluogo: fase fondamentale per la buona riuscita di un progetto; gli elementi essenziali sono: l’incontro/confronto con il committente, il rilievo fotogrammetrico della proprietà, l’analisi approfondita del luogo."
+    },
+    {
+      "title": "L’idea",
+      "quote": "Dispongo le linee guida di massima, che accompagneranno la fase della progettazione definitiva ed esecutiva.",
+      "text": "Il concept: è il momento in cui trovo la forma, l’idea cercando di far collimare le mie idee con i desideri e le esigenze del committente, i limiti del luogo per le caratteristiche, l’identità e i limiti normativi. Planimetria di massima, prospettive e rendering descrivono in modo dettagliato lo studio dello spazio da realizzare. Il computo di massima stima i costi per la realizzazione dello spazio a verde."
+    },
+    {
+      "title": "Il progetto",
+      "quote": "Determino e computo in ogni dettaglio le fasi di lavoro da realizzare.",
+      "text": "Il progetto esecutivo: momento in cui si definiscono i dettagli architettonici, stilistici, si consolidano le scelte dei vari materiali e finiture; pavimentazioni, rivestimenti, zone living, opere da fabbro, piscine, gazebi, complementi d’arredo e lo studio delle scelte botaniche, la definizione degli impianti irrigazione, illuminazione e il computo metrico definitivo."
+    },
+    {
+      "title": "Il fare",
+      "quote": "Seguo ogni step della realizzazione.",
+      "text": "La direzione lavori: assistenza in tutte le fasi di realizzazione. Esecuzione di tutti i movimenti terra per raggiungere le quote di livello finali del giardino, la costruzione di tutte le opere previste, predisposizione e posa degli impianti e degli elementi vegetali. Fase in cui la supervisione garantisce la conformità del progetto e il rispetto dei budget di costo previsti dal computo."
+    }
+  ]
+}

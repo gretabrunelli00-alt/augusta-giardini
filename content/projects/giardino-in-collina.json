@@ -1,0 +1,164 @@
+{
+  "kind": "project",
+  "slug": "giardino-in-collina",
+  "title": "Giardino in collina",
+  "place": {
+    "name": "Solto Collina",
+    "status": "alt-text"
+  },
+  "type": "giardino in collina",
+  "tagline": "Un piccolo giardino in collina realizzato per un cliente che ama lo stile contemporaneo.",
+  "signature": [
+    "Bordure in corten",
+    "Schermi in ferro",
+    "Piccola piscina"
+  ],
+  "pullQuote": "…uno spazio da vivere come un vero e proprio ambiente interno.",
+  "seoDescription": "Giardino contemporaneo in collina: zona conviviale tra phormium e ortensie, piccola piscina, schermi in ferro e bordure geometriche in corten.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Il terreno agricolo sul confine entra a far parte del giardino stesso dando ampio respiro, dilatando lo spazio."
+      ]
+    },
+    {
+      "kind": "need",
+      "paragraphs": [
+        "Un piccolo giardino in collina realizzato per un cliente che ama lo stile contemporaneo."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "Il giardino fronte casa diventa il carattere che incornicia l’architettura stessa. Lo spazio ridotto del portico è stato ampliato creando una zona pavimentata circondata da phormium e ortensie che forniscono privacy per questa zona conviviale.",
+        "Nel giardino sul retro della casa, uno spazio da vivere come un vero e proprio ambiente interno, ho realizzato una piccola piscina, riparata dai vicini con pannellature cieche in ferro alternate a siepi di cupressuscyparis leylandii. Nella parte opposta, invece, folti oleandri e rose bianche demarcano il confine, con bordure geometriche tracciate da profili in corten."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "acer-palmatum",
+      "original": "Acer palmatum a foglia rossa",
+      "source": "list",
+      "variant": "a foglia rossa"
+    },
+    {
+      "plant": "olea-europaea",
+      "original": "Ulivo a palchi",
+      "source": "list",
+      "variant": "a palchi"
+    },
+    {
+      "plant": "cupressus-sempervirens",
+      "original": "Cupressus sempervirens totem",
+      "source": "list",
+      "cultivar": "'Totem'"
+    },
+    {
+      "plant": "cuprocyparis-leylandii",
+      "original": "Cupressuscyaris leylandii",
+      "source": "list"
+    },
+    {
+      "plant": "nerium-oleander",
+      "original": "Nerium oleander a fiore bianco",
+      "source": "list",
+      "variant": "a fiore bianco"
+    },
+    {
+      "plant": "rosa",
+      "original": "Rosa meiland",
+      "source": "list",
+      "cultivar": "'Meiland'"
+    },
+    {
+      "plant": "phormium-tenax",
+      "original": "Phormium tenax variegato",
+      "source": "list",
+      "variant": "variegato"
+    },
+    {
+      "plant": "hydrangea-macrophylla",
+      "original": "Hydrangea macrophylla bianca",
+      "source": "list",
+      "variant": "bianca"
+    },
+    {
+      "plant": "erigeron-karvinskianus",
+      "original": "Erigeron karviskianthus",
+      "source": "list"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-foto4.2.jpg",
+      "alt": "La piscina con il bordo in doghe e il prato verde, con il terreno agricolo sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.35,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.2.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-foto4.4.jpg",
+      "alt": "Visualizzazione di progetto del giardino di sera, con il prato e il fondale illuminato.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.4.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-3-solto.jpg",
+      "alt": "Il prato, la bordura di rose bianche e la siepe, con la piscina sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.6,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/3-solto.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto4.3-1.jpg",
+      "alt": "Ortensie e phormium accanto alla zona pavimentata davanti alla casa.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.3-1.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-foto4.1.1.jpg",
+      "alt": "Visualizzazione di progetto del giardino sul retro, con il prato e il fondale in legno.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.1.1.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-foto4.5.jpg",
+      "alt": "Rose bianche e un phormium in una bordura con profilo in corten.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.5.jpg"
+    }
+  ],
+  "cover": "01",
+  "legacyPath": "/giardino_in_collina/",
+  "sourcePage": "https://augusta-giardini.it/giardino_in_collina/"
+}

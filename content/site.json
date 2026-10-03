@@ -1,0 +1,40 @@
+{
+  "name": "Augusta Architettura Giardini",
+  "owner": "Augusta Mara Bertoni",
+  "siteUrl": "https://augusta-giardini.it",
+  "locale": "it_IT",
+  "tagline": "Il cielo in una stanza",
+  "description": "Progettazione di giardini, terrazze, balconi e giardini pensili sul Lago d’Iseo e a Bergamo. Augusta Mara Bertoni, garden designer dal 2006.",
+  "instagram": "https://www.instagram.com/augustaarchitetturagiardini/",
+  "contact": {
+    "phoneDisplay": "335 7804476",
+    "phoneE164": "+393357804476",
+    "email": "",
+    "emailPlaceholder": "E-mail in arrivo",
+    "address": {
+      "street": "Via Nazionale 142",
+      "postalCode": "24062",
+      "city": "Costa Volpino",
+      "province": "BG",
+      "country": "IT"
+    },
+    "vatNumber": "04493890166"
+  },
+  "areaServed": [
+    "Lago d’Iseo (Basso Sebino)",
+    "Bergamo"
+  ],
+  "order": [
+    "roof-garden-vista-lago",
+    "piccolo-giardino-in-centro-storico",
+    "chi-sono",
+    "giardino-privato-sul-lago-d-iseo",
+    "loggiato",
+    "corten-e-graminacee",
+    "terrazzo-a-pozzetto",
+    "come-lavoro",
+    "palazzo-con-corte-interna-e-giardino-privato",
+    "terrazza-bergamo",
+    "giardino-in-collina"
+  ]
+}

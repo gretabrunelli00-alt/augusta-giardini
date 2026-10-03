@@ -1,0 +1,201 @@
+{
+  "kind": "project",
+  "slug": "corten-e-graminacee",
+  "title": "Corten e graminacee",
+  "type": "giardino di una cascina rurale",
+  "tagline": "Un connubio di modernità e conservazione.",
+  "signature": [
+    "Pannelli in corten",
+    "Ulivi da produzione",
+    "Terrazzamenti"
+  ],
+  "pullQuote": "…la struttura originaria ha mantenuto il sapore rustico mentre la parte dell’ampliamento ha dato un taglio moderno all’insieme.",
+  "seoDescription": "Giardino di una cascina rurale ristrutturata: pannelli in corten, antichi terrazzamenti con ulivi da produzione, graminacee e arredi disegnati su misura.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Sono arrivata in questo posto incantevole prima ancora che avvenisse la ristrutturazione di questa cascina rurale. Grazie al nuovo intervento, tutto ha preso un sapore diverso: la struttura originaria ha mantenuto il sapore rustico mentre la parte dell’ampliamento ha dato un taglio moderno all’insieme."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "Anche il giardino, quindi, ha seguito questo schema: esso si presenta come un connubio di modernità e conservazione. Sugli antichi terrazzamenti tutelati dalla sovrintendenza, sono stati piantati degli ulivi da produzione. Alla base del primo terrazzamento, quello più vicino alla casa, ho posto rose bianche alternate a lavande, agavi ed erigeron.",
+        "Alcuni cipressi e un fico e un corbezzolo esemplare svettano creando l’impalcatura del giardino stesso. Mentre degli oleandri bianchi e rosa completano il verde nelle zone in cui serve nascondere le visuali meno piacevoli.",
+        "Nella zona antistante la casa, ho pensato ad una siepe di photinia a spalliera con un tronco di altezza 2,10 mt per permettere una chiusura alta senza occupare troppo spazio nella zona sottostante. Gaure stipe, anemoni e vite del Canada completano e arredano quest’area. Nella terrazza della camera dei ragazzi ho studiato una fioriera geometrica piantumato un nocciolo contorto, bossi, anemoni e phormium."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Per contenere il terreno intorno all’edificio ho studiato dei pannelli di corten sorretti da setti in cemento armato. Partendo da questi elementi ho disegnato sia gli arredi esterni (tavoli e sedute) che le pannellature cieche di confine, compreso il cancello carraio."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "olea-europaea",
+      "original": "Ulivi",
+      "source": "list"
+    },
+    {
+      "plant": "cupressus-sempervirens",
+      "original": "Cupessus sempervirens totem",
+      "source": "list",
+      "cultivar": "'Totem'"
+    },
+    {
+      "plant": "ficus-carica",
+      "original": "Ficus carica",
+      "source": "list"
+    },
+    {
+      "plant": "arbutus-unedo",
+      "original": "Arbuthus unedo",
+      "source": "list"
+    },
+    {
+      "plant": "corylus-avellana",
+      "original": "Corylus avellana contorta",
+      "source": "list",
+      "cultivar": "'Contorta'"
+    },
+    {
+      "plant": "photinia-sp",
+      "original": "Photinia a spalliera",
+      "source": "list",
+      "variant": "a spalliera"
+    },
+    {
+      "plant": "nerium-oleander",
+      "original": "Nerium oleander",
+      "source": "list",
+      "variant": "bianchi e rosa (dal testo)"
+    },
+    {
+      "plant": "rosa",
+      "original": "Rosa iceberg",
+      "source": "list",
+      "cultivar": "'Iceberg'"
+    },
+    {
+      "plant": "lavandula-angustifolia",
+      "original": "Lavanda hidcote",
+      "source": "list",
+      "cultivar": "'Hidcote'"
+    },
+    {
+      "plant": "buxus-sempervirens",
+      "original": "Bosso sempervirens",
+      "source": "list"
+    },
+    {
+      "plant": "stipa-tenuissima",
+      "original": "Stipa tenuissima",
+      "source": "list"
+    },
+    {
+      "plant": "gaura-lindheimeri",
+      "original": "Gaura lindheimeri butterfly",
+      "source": "list",
+      "cultivar": "'Butterfly'"
+    },
+    {
+      "plant": "agave-sp",
+      "original": "agavi",
+      "source": "text"
+    },
+    {
+      "plant": "erigeron-sp",
+      "original": "erigeron",
+      "source": "text"
+    },
+    {
+      "plant": "phormium-sp",
+      "original": "phormium",
+      "source": "text"
+    },
+    {
+      "plant": "anemone-sp",
+      "original": "anemoni",
+      "source": "text"
+    },
+    {
+      "plant": "parthenocissus-sp",
+      "original": "vite del Canada",
+      "source": "text"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-30-bettoni.jpg",
+      "alt": "Pannelli in corten e vite rampicante, con una siepe di photinia a spalliera e graminacee ai piedi.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/30-bettoni.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-foto6.2.jpg",
+      "alt": "Tavolo e panche in corten, disegnati per il giardino, davanti al muro di contenimento.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto6.2.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-foto6.4.jpg",
+      "alt": "Il prato rialzato tra il pannello in corten e il muro in cemento, con i cipressi e il muro di pietra sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto6.4.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto6.5.jpg",
+      "alt": "La scalinata in pietra tra il muro a secco, le rose bianche e gli arbusti.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto6.5.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-27-bettoni.jpg",
+      "alt": "I cipressi sul terrazzamento, il prato e la bordura lungo il muretto di pietra.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/27-bettoni.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-foto6.11.jpg",
+      "alt": "La fioriera bianca con bossi e un albero, sotto un ombrellone.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto6.11.jpg"
+    }
+  ],
+  "cover": "02",
+  "legacyPath": "/corten_e_graminacee/",
+  "sourcePage": "https://augusta-giardini.it/corten_e_graminacee/"
+}

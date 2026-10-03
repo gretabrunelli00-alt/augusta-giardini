@@ -1,0 +1,236 @@
+{
+  "kind": "project",
+  "slug": "giardino-privato-sul-lago-d-iseo",
+  "title": "Giardino privato sul lago d’Iseo",
+  "place": {
+    "name": "Fonteno",
+    "status": "alt-text"
+  },
+  "type": "giardino privato",
+  "tagline": "Una cornice incantevole è lo sfondo ideale per questo giardino dalle ampie viste su una delle più belle zone del lago d’Iseo.",
+  "signature": [
+    "Granito sardo",
+    "Gelsi riposizionati"
+  ],
+  "pullQuote": "Il design di questo giardino è stato concepito come una sequenza di stanze, ognuna con la sua specifica atmosfera.",
+  "seoDescription": "Giardino privato sul lago d’Iseo concepito come una sequenza di stanze: muri di contenimento in granito sardo, gelsi riposizionati e fioriture in ogni stagione.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Una cornice incantevole è lo sfondo ideale per questo giardino dalle ampie viste su una delle più belle zone del lago d’Iseo. Originariamente il sito si presentava impervio e scomodo."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "Il design di questo giardino è stato concepito come una sequenza di stanze, ognuna con la sua specifica atmosfera. Il muoversi, dunque, al suo interno offre, oltre all’incontro delle varietà botaniche di piantumazione, espressioni contrastanti di prospettive, proporzioni e volumi.",
+        "I muri di contenimento sono stati valorizzati mediante l’utilizzo di essenze ricadenti come il rosmarino prostrato, Jasminum nudiflorum e Lespedeza thunbergii creando macchie di giallo intenso nel periodo tra febbraio marzo e cascate di rosa carico dall’estate all’autunno.",
+        "Ho lavorato alternando essenze mediterranee ad altre autoctone creando un giardino dal carattere spontaneo ed informale.",
+        "Il viola della Perovskia e delle Lavande, l’azzurro intenso e il bianco degli agapanthus, il rosa dalle generose fioriture degli anemoni giapponesi donano in ogni stagione colore e movimento."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Il terreno, poi, in fase di progettazione e realizzazione è stato modellato con muri di contenimento in granito sardo; alcune aree sono state invece lasciate a scarpata e piantumate con arbusti adatti."
+      ]
+    },
+    {
+      "kind": "night",
+      "paragraphs": [
+        "Emergono maestosi i gelsi che, pur facendo già parte del terreno prima della costruzione, sono stati riposizionati in punti strategici e privilegiati, diventando degli elementi scultorei con i loro tronchi elaborati e materici. Di notte, con la giusta illuminazione, diventano, così, i protagonisti del paesaggio."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "salvia-rosmarinus",
+      "original": "Rosmarino prostrato",
+      "source": "list",
+      "cultivar": "'Prostratus'"
+    },
+    {
+      "plant": "morus-nigra",
+      "original": "Morus nigra",
+      "source": "list"
+    },
+    {
+      "plant": "carpinus-betulus",
+      "original": "Carpinus betulus fastigiato",
+      "source": "list",
+      "cultivar": "'Fastigiata'"
+    },
+    {
+      "plant": "punica-granatum",
+      "original": "Punica granatum",
+      "source": "list"
+    },
+    {
+      "plant": "corylus-avellana",
+      "original": "Corylus Avellana contorta",
+      "source": "list",
+      "cultivar": "'Contorta'"
+    },
+    {
+      "plant": "trachycarpus-fortunei",
+      "original": "Chamaerops excelsa",
+      "source": "list"
+    },
+    {
+      "plant": "chamaerops-humilis",
+      "original": "Chamaerops humilis",
+      "source": "list"
+    },
+    {
+      "plant": "agave-americana",
+      "original": "Agave americana",
+      "source": "list"
+    },
+    {
+      "plant": "buxus-sempervirens",
+      "original": "Buxus sempervirens",
+      "source": "list"
+    },
+    {
+      "plant": "anemone-hybrida",
+      "original": "Anemone hybrida",
+      "source": "list"
+    },
+    {
+      "plant": "perovskia-atriplicifolia",
+      "original": "Perovskia atriplicifolia",
+      "source": "list"
+    },
+    {
+      "plant": "lavandula-sp",
+      "original": "Lavanda",
+      "source": "list"
+    },
+    {
+      "plant": "erigeron-karvinskianus",
+      "original": "Erigeron karviskianthus",
+      "source": "list"
+    },
+    {
+      "plant": "agapanthus-africanus",
+      "original": "Agapanthus africanus",
+      "source": "list"
+    },
+    {
+      "plant": "phormium-sp",
+      "original": "Phormium variegato",
+      "source": "list",
+      "variant": "variegato"
+    },
+    {
+      "plant": "rosa",
+      "original": "Rosa white meidiland",
+      "source": "list",
+      "cultivar": "'White Meidiland'"
+    },
+    {
+      "plant": "lespedeza-thunbergii",
+      "original": "Lespedeza thunbergii",
+      "source": "list"
+    },
+    {
+      "plant": "jasminum-nudiflorum",
+      "original": "Jasminum nudiflorum",
+      "source": "list"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-foto1.jpg",
+      "alt": "Il prato con il camminamento in pietra, il muro di contenimento in granito e un gelso sulla destra.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-foto6.jpg",
+      "alt": "Fiori rosa di anemone giapponese in primo piano, con il lago e la montagna sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto6.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-foto3.jpg",
+      "alt": "Un muro in pietra, un agave e arbusti ricadenti ai piedi di una casa con portico in legno.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.6,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto3.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-foto4.jpg",
+      "alt": "Un muro di contenimento in pietra con arbusti dai fiori bianchi e la montagna sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto4.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-foto5.jpg",
+      "alt": "Un gelso dal tronco scultoreo circondato da lavanda e altri arbusti.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto5.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-foto2.jpg",
+      "alt": "Il camminamento di lastre di pietra tra il prato e le bordure fiorite, accanto a un grande masso.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/foto2.jpg"
+    },
+    {
+      "id": "07",
+      "file": "07-24-fonteno-scaled.jpg",
+      "alt": "Veduta panoramica del giardino a più livelli, con le terrazze, le bordure e le vetrate della casa.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/24-fonteno-scaled.jpg"
+    },
+    {
+      "id": "08",
+      "file": "08-21-fonteno-scaled.jpg",
+      "alt": "Veduta panoramica della pavimentazione in pietra e prato, con il muro in granito e i cipressi.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/03/21-fonteno-scaled.jpg"
+    }
+  ],
+  "cover": "02",
+  "legacyPath": "/giardino_privato_sul_lago_d-iseo/",
+  "sourcePage": "https://augusta-giardini.it/giardino_privato_sul_lago_d-iseo/"
+}

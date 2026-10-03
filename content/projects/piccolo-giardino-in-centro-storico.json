@@ -1,0 +1,219 @@
+{
+  "kind": "project",
+  "slug": "piccolo-giardino-in-centro-storico",
+  "title": "Piccolo giardino in centro storico",
+  "titleOriginal": "Piccolo giardini in centro storico",
+  "type": "giardino",
+  "tagline": "Fasci di luce a led e piccoli punti luminosi restituiscono degli effetti molto scenografici di notte.",
+  "signature": [
+    "Doghe di greenwood",
+    "Pergola a lamelle",
+    "Specchio"
+  ],
+  "pullQuote": "…mascherare il muro esistente rivestendolo con doghe di legno e specchio per ampliare virtualmente lo spazio.",
+  "seoDescription": "Giardino in centro storico con zona living sotto pergola a lamelle, doghe di greenwood, specchio e cucina outdoor. Progetto di Augusta Architettura Giardini.",
+  "sections": [
+    {
+      "kind": "place",
+      "paragraphs": [
+        "Un piccolo giardino in un centro storico. Al primo sopralluogo mi appare come uno spazio anonimo, con un marciapiede intorno all’edificio e un’area a prato solo parzialmente rialzata rispetto al piano di calpestio."
+      ]
+    },
+    {
+      "kind": "need",
+      "paragraphs": [
+        "L’esigenza dei committenti era il poter vivere e usufruire di questo spazio al meglio."
+      ]
+    },
+    {
+      "kind": "idea",
+      "paragraphs": [
+        "In tal senso, ho studiato una zona living all’aperto protetta da una pergola con lamelle orientabili così che, anche in caso di pioggia, venisse garantita una protezione durante i pranzi e le cene in giardino.",
+        "Sul confine lato nord ho inserito dei Malus floribunda potati a spalliera così da assicurare la privacy rispetto alla casa confinante. Nell’aiuola sottostante ho scelto ulteriori essenze da ombra pachysandra terminalis, ortensie e delle fioriture stagionali bianche per dare luce alla zona buia.",
+        "Sul lato opposto, verso sud, ho deciso di mascherare il muro esistente rivestendolo con doghe di legno e specchio per ampliare virtualmente lo spazio. In una piccola nicchia è stata ricavata, poi, una cucina outdoor completa di barbecue e piano cottura e nella fioriera che separa la cucina della zona living ho scelto una bellissima cycas e di fronte vasi in cemento alti e stretti ospitano delle opuntia."
+      ]
+    },
+    {
+      "kind": "materials",
+      "paragraphs": [
+        "Ho utilizzato delle doghe di greenwood per la pavimentazione e disegnato una fioriera in muratura a ridosso del muro di pietra in modo da spezzarne la monotonia e colorare, con del verde da ombra, lo sfondo del tavolo da pranzo e della zona divano. Ho selezionato una panca per la zona del tavolo e posto arredi Kettal comodi per la zona conviviale di relax.",
+        "Elementi decorativi in corten sono stati inseriti nelle fioriere e appoggiati sulla pavimentazione."
+      ]
+    },
+    {
+      "kind": "night",
+      "paragraphs": [
+        "Fasci di luce a led e piccoli punti luminosi restituiscono degli effetti molto scenografici di notte, lanterne e portacandele offrono un’atmosfera piacevole e rilassante."
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "plant": "malus-floribunda",
+      "original": "Malus floribunda",
+      "source": "list"
+    },
+    {
+      "plant": "cornus-florida",
+      "original": "Cornus florida rubra",
+      "source": "list",
+      "cultivar": "'Rubra'"
+    },
+    {
+      "plant": "cycas-revoluta",
+      "original": "Cycas revoluta",
+      "source": "list"
+    },
+    {
+      "plant": "laurus-nobilis",
+      "original": "Laurus nobilis",
+      "source": "list"
+    },
+    {
+      "plant": "phormium-tenax",
+      "original": "Phormium tenax variegato",
+      "source": "list",
+      "variant": "variegato"
+    },
+    {
+      "plant": "asparagus-sprengeri",
+      "original": "Asparagus sprengerii",
+      "source": "list"
+    },
+    {
+      "plant": "hydrangea-paniculata",
+      "original": "Hydrangea paniculata limelight",
+      "source": "list",
+      "cultivar": "'Limelight'"
+    },
+    {
+      "plant": "pachysandra-terminalis",
+      "original": "Pachisandra terminalis",
+      "source": "list"
+    },
+    {
+      "plant": "trachelospermum-jasminoides",
+      "original": "Rhycospermum jasminoides",
+      "source": "list"
+    },
+    {
+      "plant": "agapanthus-africanus",
+      "original": "Agapahanthus africanus",
+      "source": "list"
+    },
+    {
+      "plant": "opuntia-sp",
+      "original": "Opuntia",
+      "source": "list"
+    },
+    {
+      "plant": "agave-americana",
+      "original": "Agave americana",
+      "source": "list"
+    }
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "01-IMG_6477-1.jpg",
+      "alt": "La zona living sotto la pergola a lamelle: tavolo in legno con due lanterne in vimini e poltrone in corda intrecciata su doghe di greenwood.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.35,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6477-1.jpg"
+    },
+    {
+      "id": "02",
+      "file": "02-IMG_6466-1.jpg",
+      "alt": "Il divano e il tavolo da pranzo sotto la pergola, con la fioriera in muratura addossata al muro di pietra e il verde da ombra sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6466-1.jpg"
+    },
+    {
+      "id": "03",
+      "file": "03-IMG_6533.jpg",
+      "alt": "Poltrone e pouf sulle doghe di greenwood, un ombrellone bianco e l’aiuola con ortensie e fioriture bianche.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6533.jpg"
+    },
+    {
+      "id": "04",
+      "file": "04-IMG_6444.jpg",
+      "alt": "Il lato sud del giardino: la cucina outdoor in nicchia, il pavimento chiaro e il verde sul muro di pietra.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6444.jpg"
+    },
+    {
+      "id": "05",
+      "file": "05-IMG_6407.jpg",
+      "alt": "Vasi alti e stretti in cemento con le opuntia, un agave e gli agapanthus; sullo sfondo i tetti del centro storico e le montagne.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.35,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6407.jpg"
+    },
+    {
+      "id": "06",
+      "file": "06-IMG_6429-1.jpg",
+      "alt": "Un agave, gli agapanthus bianchi e il rosmarino in primo piano, con vasi e tetti del borgo sullo sfondo.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.4,
+        "y": 0.6
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6429-1.jpg"
+    },
+    {
+      "id": "07",
+      "file": "07-IMG_6477-2.jpg",
+      "alt": "Due poltrone con pouf sotto l’ombrellone, circondate da fioriture bianche.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6477-2.jpg"
+    },
+    {
+      "id": "08",
+      "file": "08-IMG_6407-1.jpg",
+      "alt": "La tavola apparecchiata sotto la pergola al calar della sera, con le lanterne accese e le luci calde tra il verde.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.62,
+        "y": 0.55
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6407-1.jpg"
+    },
+    {
+      "id": "09",
+      "file": "09-IMG_6735-1.jpg",
+      "alt": "Il giardino di sera: la cucina outdoor illuminata da fasci di luce a led, con il muro di pietra ricoperto di verde.",
+      "altStatus": "proposed",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "sourceUrl": "https://augusta-giardini.it/wp-content/uploads/2021/09/IMG_6735-1.jpg"
+    }
+  ],
+  "cover": "08",
+  "legacyPath": "/piccolo_giardino_in_centro_storico/",
+  "sourcePage": "https://augusta-giardini.it/piccolo_giardino_in_centro_storico/"
+}
