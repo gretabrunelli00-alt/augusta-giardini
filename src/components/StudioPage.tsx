@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Pic } from "./Pic";
 import { ContactBlock } from "./ContactBlock";
 import { getCollection, siteUrl } from "@/lib/content";
@@ -30,8 +31,7 @@ export default function StudioPage({ slug }: { slug: "filosofia" | "chi-sono" | 
     <div className="studio">
       <header className="hdr" data-scrolled="true">
         <Link className="logo" href="/" aria-label={`${site.name} — home`}>
-          <span className="logo-a">Augusta</span>
-          <span className="logo-b">Architettura Giardini</span>
+          <Image src="/brand/augusta-logo.png" alt="Augusta Architettura Giardini" width={1792} height={487} sizes="170px" />
         </Link>
         <nav className="hdr-nav" aria-label="Menu principale">
           <Link className="nav-link" href="/progetti">Progetti</Link>

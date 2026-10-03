@@ -2,7 +2,7 @@
 
 Sito Next.js 16 (App Router) + TypeScript + Zod.
 
-**Struttura**: apertura con *Filosofia*, *Chi sono* e *Come lavoro* estesi (sunto con dati chiave) → scrollando in giù l'apertura si allontana e il carosello dei progetti arriva "sul tavolo" e si alza in verticale → carosello orizzontale infinito, ogni progetto è una card che si gira in 3D. Scroll verso l'alto: si torna all'apertura. Approfondimenti: `/filosofia`, `/chi-sono`, `/come-lavoro`. Progetti indicizzabili: `/progetti/[slug]`.
+**Struttura**: apertura essenziale (logo, «Il cielo in una stanza» e una riga di filosofia) su uno sfondo fotografico animato → scrollando in giù la camera scende nel prato (l'erba diventa lo sfondo) e il carosello dei progetti arriva "sul tavolo" e si alza in verticale → carosello orizzontale infinito, ogni progetto è una card che si gira in 3D. Scroll verso l'alto: si torna all'apertura. Approfondimenti con tutti i dati: `/filosofia`, `/chi-sono`, `/come-lavoro` (da progettare graficamente). Progetti indicizzabili: `/progetti/[slug]`.
 
 ```bash
 npm install
@@ -35,3 +35,6 @@ Sovrascrivi il file in `content/images/<slug>/` **mantenendo il nome** (oppure c
 
 ## Non incluso (fase 2)
 Erbario (i dati sono pronti: `plants.json` + `uses`), modalità giorno/sera, inglese, form contatti, CMS.
+
+## Sfondo animato
+`src/lib/garden.ts`: un fragment shader WebGL2 (nessuna libreria) lavora tre fotografie reali CC0 (`content/backdrop-src/`, crediti in `notes/CREDITI-IMMAGINI.md`): cielo con due strati di cirri che derivano, velo rosa all'orizzonte, prato piegato dal vento con raffiche e ombre di nuvole. La scena (0 apertura → 1 carosello) sposta la camera nell'erba e scurisce/sfoca appena lo sfondo. Senza WebGL resta un gradiente; con `prefers-reduced-motion` lo sfondo non si anima. Per cambiare le foto: sostituisci i file in `content/backdrop-src/` e lancia `npm run backdrop`.

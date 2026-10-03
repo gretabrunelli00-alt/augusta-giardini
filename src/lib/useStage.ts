@@ -27,7 +27,7 @@ type Opts = {
 
 const useIso = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
-const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+const ease = (t: number) => { const x = clamp(t, 0, 1); return x * x * x * (x * (x * 6 - 15) + 10); };
 
 export function useStage({ count, initial, initialScene, rootRef, stageRef, introRef, locked, reduced }: Opts) {
   const [active, setActive] = useState(initial);
@@ -50,6 +50,8 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
   const tv = useRef(0);
   const tTarget = useRef<number>(initialScene);
   const sceneLive = useRef(false);
+  const sceneK = useRef(3.6);
+  const eRef = useRef<number>(initialScene);
   const modeRef = useRef<SceneMode>(initialScene ? "carousel" : "intro");
   // ciclo
   const raf = useRef(0);
@@ -85,6 +87,7 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
     const root = rootRef.current;
     if (!root) return;
     const e = ease(clamp(t.current, 0, 1));
+    eRef.current = e;
     root.style.setProperty("--t", clamp(t.current, 0, 1).toFixed(4));
     root.style.setProperty("--e", e.toFixed(4));
     root.style.setProperty("--e2", ease(clamp((t.current - 0.12) / 0.88, 0, 1)).toFixed(4));
@@ -150,7 +153,7 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
     },
     [count, goTo],
   );
-  const sceneTo = useCallback((v: 0 | 1) => { sceneLive.current = false; tTarget.current = v; kick(); }, [kick]);
+  const sceneTo = useCallback((v: 0 | 1) => { sceneLive.current = false; sceneK.current = 3.6; tTarget.current = v; kick(); }, [kick]);
 
   // misure
   useIso(() => {
@@ -179,18 +182,18 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
     /* ---- gesto di scena (rotella / tocco): t segue il gesto, poi si assesta */
     let sceneIdle = 0;
     let dirSum = 0;
-    const driveScene = (dt: number) => {
+    const driveScene = (dt: number, k = 16) => {
       sceneLive.current = true;
-      tv.current = 0;
-      t.current = clamp(t.current + dt, 0, 1);
-      tTarget.current = t.current;
+      sceneK.current = k;
+      tTarget.current = clamp(tTarget.current + dt, 0, 1);
       dirSum = dirSum * 0.7 + dt;
       kick();
     };
     const settleScene = (bias: number) => {
       sceneLive.current = false;
-      const x = t.current;
-      tTarget.current = bias > 0 ? (x > 0.1 ? 1 : 0) : bias < 0 ? (x < 0.9 ? 0 : 1) : x > 0.5 ? 1 : 0;
+      sceneK.current = 3.6;
+      const x = tTarget.current;
+      tTarget.current = bias > 0 ? (x > 0.08 ? 1 : 0) : bias < 0 ? (x < 0.92 ? 0 : 1) : x > 0.5 ? 1 : 0;
       dirSum = 0;
       kick();
     };
@@ -221,9 +224,8 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
         pos.current = down.pos - (e.clientX - down.x) / step.current;
       } else {
         // dito verso il basso = scroll verso l'alto = si torna all'apertura
-        tv.current = 0;
-        t.current = clamp(1 - Math.max(0, dy - 8) / (vh() * 0.6), 0, 1);
-        tTarget.current = t.current;
+        sceneK.current = 40;
+        tTarget.current = clamp(1 - Math.max(0, dy - 8) / (vh() * 0.6), 0, 1);
       }
     };
     const end = (e: PointerEvent) => {
@@ -246,7 +248,7 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
       } else if (down.axis === "y") {
         delete stage.dataset.dragging;
         justDragged.current = performance.now();
-        settleScene(t.current < 0.88 ? -1 : 0);
+        settleScene(tTarget.current < 0.9 ? -1 : 0);
         try { stage.releasePointerCapture(e.pointerId); } catch {}
       }
       down = null;
@@ -312,18 +314,17 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
       const y = e.touches[0].clientY;
       if (!driving) {
         const atBottom = !intro || intro.scrollTop + intro.clientHeight >= intro.scrollHeight - 2;
-        if (y - ty0 < -8 && atBottom) { driving = true; ty0 = y; t0 = t.current; }
+        if (y - ty0 < -8 && atBottom) { driving = true; ty0 = y; t0 = tTarget.current; }
         else if (modeRef.current === "intro") return;
-        else { driving = true; ty0 = y; t0 = t.current; }
+        else { driving = true; ty0 = y; t0 = tTarget.current; }
       }
       if (e.cancelable) e.preventDefault();
       sceneLive.current = true;
-      tv.current = 0;
-      t.current = clamp(t0 + (ty0 - y) / (vh() * 0.65), 0, 1);
-      tTarget.current = t.current;
+      sceneK.current = 40;
+      tTarget.current = clamp(t0 + (ty0 - y) / (vh() * 0.65), 0, 1);
       kick();
     };
-    const onTE = () => { if (driving) { driving = false; settleScene(t.current > t0 ? 1 : t.current < t0 ? -1 : 0); } };
+    const onTE = () => { if (driving) { driving = false; settleScene(tTarget.current > t0 ? 1 : tTarget.current < t0 ? -1 : 0); } };
 
     stage.addEventListener("pointerdown", onDown);
     stage.addEventListener("pointermove", onMove);
@@ -353,5 +354,5 @@ export function useStage({ count, initial, initialScene, rootRef, stageRef, intr
   useEffect(() => () => cancelAnimationFrame(raf.current), []);
   const wasDrag = useCallback(() => performance.now() - justDragged.current < 140, []);
 
-  return { active, center, K, mode, register, goTo, goBy, goToIndex, sceneTo, wasDrag };
+  return { active, center, K, mode, eRef, register, goTo, goBy, goToIndex, sceneTo, wasDrag };
 }

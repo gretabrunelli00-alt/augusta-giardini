@@ -3,6 +3,9 @@ import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "
 import { useStage } from "@/lib/useStage";
 import { CardView } from "./CardView";
 import { Intro } from "./Intro";
+import { GardenBackground } from "./GardenBackground";
+import Link from "next/link";
+import Image from "next/image";
 import { ContactDialog, Lightbox, PlantDialog } from "./Dialogs";
 import { cardPath, mod, pad2 } from "@/lib/types";
 import type { EditorialCard, PlantEntry, ProjectCard } from "@/lib/types";
@@ -43,7 +46,7 @@ export default function Home({ cards, editorials, plants, site, initialSlug }: P
   const [contactOpen, setContactOpen] = useState(false);
   const reduced = useReducedMotion();
 
-  const { active, center, K, mode, register, goTo, goBy, goToIndex, sceneTo, wasDrag } = useStage({
+  const { active, center, K, mode, eRef, register, goTo, goBy, goToIndex, sceneTo, wasDrag } = useStage({
     count: N, initial, initialScene, rootRef, stageRef, introRef, locked: flipped, reduced,
   });
   const activeIdx = mod(active, N);
@@ -127,17 +130,20 @@ export default function Home({ cards, editorials, plants, site, initialSlug }: P
 
   return (
     <div ref={rootRef} className="scene" data-mode={mode} style={{ "--t": initialScene, "--e": initialScene, "--e2": initialScene } as React.CSSProperties}>
+      <GardenBackground sceneRef={eRef} reduced={reduced} />
+
       <header className="hdr">
         <a className="logo" href="/" onClick={(e) => { e.preventDefault(); setFlipped(false); sceneTo(0); }} aria-label={`${site.name} — torna all’apertura`}>
-          <span className="logo-a">Augusta</span>
-          <span className="logo-b">Architettura Giardini</span>
+          <Image src="/brand/augusta-logo.png" alt="" width={1792} height={487} sizes="170px" />
         </a>
         <nav className="hdr-nav" aria-label="Menu principale">
+          <Link className="nav-link" href="/chi-sono">Chi sono</Link>
+          <Link className="nav-link" href="/come-lavoro">Come lavoro</Link>
           <button type="button" className="nav-link" onClick={() => sceneTo(inCarousel ? 0 : 1)} data-current={inCarousel}>
-            {inCarousel ? "Studio" : "Progetti"}
+            {inCarousel ? "Home" : "Progetti"}
           </button>
           <button type="button" className="nav-link" onClick={() => setContactOpen(true)} aria-haspopup="dialog">Contatti</button>
-          <a className="nav-link" href={site.instagram} target="_blank" rel="noopener noreferrer">
+          <a className="nav-link nav-ig" href={site.instagram} target="_blank" rel="noopener noreferrer">
             Instagram<span aria-hidden="true"> ↗</span><span className="sr-only"> (si apre in una nuova scheda)</span>
           </a>
         </nav>
@@ -146,8 +152,10 @@ export default function Home({ cards, editorials, plants, site, initialSlug }: P
       <div className="intro-layer" inert={mode === "carousel"} aria-hidden={mode === "carousel"}>
         <Intro
           ref={introRef}
-          filosofia={editorials["filosofia"]} chiSono={editorials["chi-sono"]} comeLavoro={editorials["come-lavoro"]}
-          projectsCount={N} plantsCount={Object.keys(plants).length} onProjects={() => sceneTo(1)}
+          title="Il cielo in una stanza"
+          line="Progettando un giardino lo penso come ad una stanza con il cielo."
+          kicker="La mia filosofia"
+          onProjects={() => sceneTo(1)}
         />
       </div>
 
